@@ -1077,11 +1077,11 @@ MonoBehaviour:
   AddIntrinsics: 1
   IntrinsicDefaults:
   - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-    Value: 100
+    Value: 80
   - Intrinsic: {fileID: 11400000, guid: 6f39a22ef66a4880b2a2918be8962f89, type: 2}
-    Value: 1
+    Value: 3
   - Intrinsic: {fileID: 11400000, guid: 5547ac0e1895a33409eea90938b319f9, type: 2}
-    Value: 1
+    Value: 4
   IntrinsicDefaultGroups: []
   Initialize:
     CopyFrom: 3
