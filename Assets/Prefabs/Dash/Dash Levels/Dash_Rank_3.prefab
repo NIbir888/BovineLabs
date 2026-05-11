@@ -112,7 +112,7 @@ MonoBehaviour:
       Target: 1
       Operation: 1
       ComparisonMode: 0
-      Value: 1
+      Value: 3
       CustomValue:
         rid: -2
       MinComparisonMode: 0
@@ -194,7 +194,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1890065065875015668}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 38e122796aa2b9d4d804cdb5d90a8939, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 66698dfabfe2faa4ca223404fc8d37d1, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -214,7 +214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8149176296026767318}
   m_Layer: 0
-  m_Name: Dash_Rank_1
+  m_Name: Dash_Rank_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
