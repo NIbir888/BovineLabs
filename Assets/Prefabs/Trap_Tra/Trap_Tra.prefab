@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4013253215347094418}
   - component: {fileID: 199539623455448333}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Trap_Tra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -203,5 +203,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
   Intrinsics:
   - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-    Amount: 20
+    Amount: -20
     Target: 1
