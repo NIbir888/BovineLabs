@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6931672239644486893
+--- !u!114 &-7687721922036135755
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef0265bd446944e897c00a83bbcb118e, type: 3}
-  m_Name: Essence UI Track
-  m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.EssenceUITrack
+  m_Script: {fileID: 11500000, guid: 7058d219a30c4b37995721e5d969d247, type: 3}
+  m_Name: Physics Force Track
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceTrack
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
@@ -24,14 +24,14 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 7681725849314716216}
+    m_Asset: {fileID: -3912845273852477737}
     m_Duration: 1
     m_TimeScale: 1
-    m_ParentTrack: {fileID: -6931672239644486893}
+    m_ParentTrack: {fileID: -7687721922036135755}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -89,10 +89,26 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: EssenceUIClip
+    m_DisplayName: PhysicsForceClip
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
+--- !u!114 &-3912845273852477737
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aba63af082349e5a32124c19e05b78c, type: 3}
+  m_Name: PhysicsForceClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceClip
+  mode: 1
+  linearForce: {x: 0, y: 5, z: 5}
+  angularForce: {x: 0, y: 0, z: 0}
+  space: 4
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,34 +119,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: Stats UI CheckerTimeline
+  m_Name: Staggered
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.TimelineAsset
   m_Version: 0
   m_Tracks:
-  - {fileID: -6931672239644486893}
+  - {fileID: -7687721922036135755}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &7681725849314716216
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9acb458f06bc41f98dd5b0cae8cf891f, type: 3}
-  m_Name: EssenceUIClip
-  m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.EssenceUIClip
-  Stats:
-  - {fileID: 11400000, guid: 6f4e99e86398435b9bfbba86099a8177, type: 2}
-  - {fileID: 11400000, guid: af1d64b8003a4b3e96ef7acc69f048ba, type: 2}
-  Intrinsics:
-  - {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-  - {fileID: 11400000, guid: 6f39a22ef66a4880b2a2918be8962f89, type: 2}
-  - {fileID: 11400000, guid: 5547ac0e1895a33409eea90938b319f9, type: 2}
-  Events: []

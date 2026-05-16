@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7766757518403036047}
   - component: {fileID: 4013253215347094418}
   - component: {fileID: 199539623455448333}
+  - component: {fileID: -3241301714598768568}
   m_Layer: 0
   m_Name: Trap_Tra
   m_TagString: Untagged
@@ -205,3 +206,33 @@ MonoBehaviour:
   - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
     Amount: -20
     Target: 1
+--- !u!114 &-3241301714598768568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9186263841873387570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f40eccefaf4b1d9a64964f08d866b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionStatAuthoring
+  Stats:
+  - StatSchema: {fileID: 11400000, guid: af1d64b8003a4b3e96ef7acc69f048ba, type: 2}
+    Target: 1
+    ValueType: 0
+    Fixed:
+      ModifyType: 0
+      Value: 100
+    Linear:
+      ModifyType: 0
+      ConditionSchemaObject: {fileID: 0}
+      FromMin: 0
+      FromMax: 0
+      ToMin: 0
+      ToMax: 0
+    Range:
+      ModifyType: 0
+      Min: 0
+      Max: 0
