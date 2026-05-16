@@ -49,14 +49,13 @@
       "hash": "2a448884213d6e1fd7fa58d5902dc3f5bd9f2315"
     },
     "com.bovinelabs.quill": {
-      "version": "https://github.com/IAFahim/com.bovinelabs.quill.git",
+      "version": "file:com.bovinelabs.quill",
       "depth": 0,
-      "source": "git",
+      "source": "embedded",
       "dependencies": {
-        "com.bovinelabs.core": "1.4.6",
-        "com.unity.entities.graphics": "1.4.13-pre.4"
-      },
-      "hash": "e20cddee7c935ead9d4e077930807d65c1ac0039"
+        "com.bovinelabs.core": "1.6.0",
+        "com.unity.entities.graphics": "1.4.15"
+      }
     },
     "com.bovinelabs.reaction": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.reaction",
