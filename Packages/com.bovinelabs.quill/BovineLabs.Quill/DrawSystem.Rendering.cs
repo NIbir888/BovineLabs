@@ -347,6 +347,7 @@ namespace BovineLabs.Quill
             {
                 private const int BufferChunkSize = 8 * 1024 * 1024; // match SparseUploader default // TODO make it configurable
                 private const int ChunkHeadroom = 64 * 1024; // leave margin for ops/padding
+                private const GraphicsBuffer.Target BufferTarget = GraphicsBuffer.Target.Raw | GraphicsBuffer.Target.Structured;
                 private readonly int stride = UnsafeUtility.SizeOf<T>();
                 private GraphicsBuffer dest;
                 private int capacity;
@@ -355,7 +356,7 @@ namespace BovineLabs.Quill
                 public Stream(int requiredElements)
                 {
                     var newCapacity = math.max(requiredElements, this.capacity > 0 ? (int)math.ceil(this.capacity * 1.5f) : 256);
-                    this.dest = new GraphicsBuffer(GraphicsBuffer.Target.Raw, newCapacity, this.stride);
+                    this.dest = new GraphicsBuffer(BufferTarget, newCapacity, this.stride);
                     this.uploader = new SparseUploader(this.dest, BufferChunkSize);
                     this.capacity = newCapacity;
                 }
@@ -366,7 +367,7 @@ namespace BovineLabs.Quill
                     {
                         var newCapacity = math.max(requiredElements, this.capacity > 0 ? (int)math.ceil(this.capacity * 1.5f) : 256);
                         var oldBuffer = this.dest;
-                        var newBuffer = new GraphicsBuffer(GraphicsBuffer.Target.Raw, newCapacity, this.stride);
+                        var newBuffer = new GraphicsBuffer(BufferTarget, newCapacity, this.stride);
 
                         this.uploader.ReplaceBuffer(newBuffer);
 
