@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: PhysicsForceClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceClip
   mode: 1
-  linearForce: {x: 0, y: 5, z: 5}
+  linearForce: {x: 0, y: 10, z: 10}
   angularForce: {x: 0, y: 0, z: 0}
   space: 4
 --- !u!114 &11400000
