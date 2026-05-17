@@ -1,27 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: Stats UI CheckerTimeline
-  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.TimelineAsset
-  m_Version: 0
-  m_Tracks:
-  - {fileID: 6192374632473897886}
-  m_FixedDuration: 0
-  m_EditorSettings:
-    m_Framerate: 60
-    m_ScenePreview: 1
-  m_DurationMode: 0
-  m_MarkerTrack: {fileID: 0}
---- !u!114 &6192374632473897886
+--- !u!114 &-8773937455070562506
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,9 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef0265bd446944e897c00a83bbcb118e, type: 3}
-  m_Name: Essence UI Track
-  m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.EssenceUITrack
+  m_Script: {fileID: 11500000, guid: 2b4331f58237b988d909ef173ab0b34c, type: 3}
+  m_Name: TimelineEssenceStatClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceStatClip
+  routeTo: 4
+  routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+  stat: {fileID: 11400000, guid: 6f4e99e86398435b9bfbba86099a8177, type: 2}
+  modifyType: 0
+  value: 20
+--- !u!114 &-8222758383269602793
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636beb745a1b4697837a6c8df1224280, type: 3}
+  m_Name: Timeline Essence Stat Track
+  m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceStatTrack
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
@@ -43,16 +39,16 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0
+    m_Start: 0.5
     m_ClipIn: 0
-    m_Asset: {fileID: 8523957728163942143}
-    m_Duration: 1
+    m_Asset: {fileID: -8773937455070562506}
+    m_Duration: 3
     m_TimeScale: 1
-    m_ParentTrack: {fileID: 6192374632473897886}
+    m_ParentTrack: {fileID: -8222758383269602793}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -110,26 +106,28 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: EssenceUIClip
+    m_DisplayName: MovementSpeedMultiplier
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
---- !u!114 &8523957728163942143
+--- !u!114 &11400000
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9acb458f06bc41f98dd5b0cae8cf891f, type: 3}
-  m_Name: EssenceUIClip
-  m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.EssenceUIClip
-  Stats:
-  - {fileID: 11400000, guid: 6f4e99e86398435b9bfbba86099a8177, type: 2}
-  Intrinsics:
-  - {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-  - {fileID: 11400000, guid: 5547ac0e1895a33409eea90938b319f9, type: 2}
-  - {fileID: 11400000, guid: 6f39a22ef66a4880b2a2918be8962f89, type: 2}
-  Events: []
+  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+  m_Name: LV1
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.TimelineAsset
+  m_Version: 0
+  m_Tracks:
+  - {fileID: -8222758383269602793}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
