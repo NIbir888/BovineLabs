@@ -51,6 +51,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
@@ -72,9 +77,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &793429665464408230
 MeshFilter:
@@ -96,6 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b34ef51d48dc546b4e80ec8bf8d424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attachedBoneIndex: -1
 --- !u!1001 &5070966296703899839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -208,9 +216,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigConfigSource: 0
   avatar: {fileID: 0}
+  avatarOptimizationMask: {fileID: 0}
   applyRootMotion: 0
   animationCulling: 0
   boneEntityStrippingMode: 1
+  rootMotionMode: 0
   boneStrippingMask: {fileID: 31900000, guid: f81ef68ec9669d94788a3de44f9b5914, type: 2}
   hasAnimationEvents: 0
   hasAnimatorControllerEvents: 0

@@ -23,7 +23,7 @@ MonoBehaviour:
   m_OverrideGlobalSceneList: 1
   m_Scenes:
   - m_enabled: 1
-    m_path: Assets/Scenes/1. Basic Animation/BasicAnimation.unity
+    m_path: Assets/Scenes/Scene.unity
     m_guid: 9dc4cb65012ffd95a9115c35e7620ca9
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
@@ -33,6 +33,8 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
     - rid: 1445850196284014599
       type: {class: LinuxPlatformSettings, ns: UnityEditor.LinuxStandalone, asm: UnityEditor.LinuxStandalone.Extensions}
       data:

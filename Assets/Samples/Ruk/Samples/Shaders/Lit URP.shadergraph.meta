@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 9a04d2f9faf6a1e46b1f185bc64f118f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298480
+  packageName: Rukhanka Animation System 2
+  packageVersion: 2.9.0
+  assetPath: Packages/com.rukhanka.animation/Samples~/Samples/Shaders/Lit URP.shadergraph
+  uploadId: 897522
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -8,10 +15,13 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
-AssetOrigin:
-  serializedVersion: 1
-  productId: 298480
-  packageName: Rukhanka Animation System 2
-  packageVersion: 2.9.0
-  assetPath: Packages/com.rukhanka.animation/Samples~/Samples/Shaders/Lit URP.shadergraph
-  uploadId: 897522
+  useAsTemplate: 0
+  exposeTemplateAsShader: 0
+  indexedData: {fileID: -3424247175808206760, guid: 9a04d2f9faf6a1e46b1f185bc64f118f, type: 3}
+  template:
+    name: 
+    category: 
+    description: 
+    icon: {instanceID: 0}
+    thumbnail: {instanceID: 0}
+    order: 0

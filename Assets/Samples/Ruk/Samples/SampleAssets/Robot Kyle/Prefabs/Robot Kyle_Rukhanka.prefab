@@ -58,10 +58,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_Name
-      value: Robot Kyle_Ruhanka
+      value: Robot Kyle_Rukhanka
       objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: af01edd0d7e0d114ebae2815d532ee0f, type: 2}
     m_RemovedComponents:
@@ -83,7 +83,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &2449761590336837651
 Animator:
-  serializedVersion: 4
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -97,10 +97,12 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &7296944405121365034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,5 +115,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb757bd46edfe349a52b4ea886d67e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigDefinition: {fileID: 31900000, guid: ed2bd4eba093bd046accf9553cf352bc, type: 2}
-  rootBone: {fileID: 0}
+  rigConfigSource: 0
+  avatar: {fileID: 0}
+  avatarOptimizationMask: {fileID: 0}
+  applyRootMotion: 0
+  animationCulling: 0
+  boneEntityStrippingMode: 0
+  rootMotionMode: 0
+  boneStrippingMask: {fileID: 0}
+  hasAnimationEvents: 0
+  hasAnimatorControllerEvents: 0
+  animationEngine: 0

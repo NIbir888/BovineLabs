@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: a5674d01884853d4e8f2386a171e14d9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298480
+  packageName: Rukhanka Animation System 2
+  packageVersion: 2.9.0
+  assetPath: Packages/com.rukhanka.animation/Samples~/Samples/SampleAssets/Ellen/Models/Ellen.fbx
+  uploadId: 897522
 ModelImporter:
-  serializedVersion: 24200
+  serializedVersion: 24500
   internalIDToNameTable:
   - first:
       1: 100000
@@ -2747,6 +2754,8 @@ ModelImporter:
     generateMeshLods: 0
     meshLodGenerationFlags: 0
     maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -2766,6 +2775,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 1
   referencedClips: []
   importAnimation: 0
   humanDescription:
@@ -3341,10 +3351,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 298480
-  packageName: Rukhanka Animation System 2
-  packageVersion: 2.9.0
-  assetPath: Packages/com.rukhanka.animation/Samples~/Samples/SampleAssets/Ellen/Models/Ellen.fbx
-  uploadId: 897522

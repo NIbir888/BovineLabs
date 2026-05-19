@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -42,8 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -250,6 +247,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
@@ -271,9 +273,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &571025201
 MeshFilter:
@@ -295,6 +299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b34ef51d48dc546b4e80ec8bf8d424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attachedBoneIndex: -1
 --- !u!1 &669818810
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +351,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
@@ -367,9 +377,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &669818813
 MeshFilter:
@@ -391,6 +403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b34ef51d48dc546b4e80ec8bf8d424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attachedBoneIndex: -1
 --- !u!4 &833079743 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 856898659268396847, guid: 86452dc38f4771947921b1a3587d1072, type: 3}
@@ -467,6 +480,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
@@ -488,9 +506,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1702838729
 MeshFilter:
@@ -512,6 +532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b34ef51d48dc546b4e80ec8bf8d424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attachedBoneIndex: -1
 --- !u!4 &1745319446 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7833844725165290811, guid: 0f20bbafa009a4743ae009c85815e098, type: 3}
@@ -568,6 +589,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
@@ -589,9 +615,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1939968028
 MeshFilter:
@@ -613,6 +641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b34ef51d48dc546b4e80ec8bf8d424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attachedBoneIndex: -1
 --- !u!1 &1999569443 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5037334995948368549, guid: 0f20bbafa009a4743ae009c85815e098, type: 3}
@@ -632,9 +661,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigConfigSource: 0
   avatar: {fileID: 9000000, guid: 36078ab0369161e49a29d349ae3e0739, type: 3}
+  avatarOptimizationMask: {fileID: 0}
   applyRootMotion: 0
   animationCulling: 0
   boneEntityStrippingMode: 1
+  rootMotionMode: 0
   boneStrippingMask: {fileID: 0}
   hasAnimationEvents: 0
   hasAnimatorControllerEvents: 0

@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -42,8 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -131,11 +128,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 632131864036979412, guid: dd1deead00897d6438a3b639ac7be910, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 30057648b89889746b031ce3b52194cc, type: 2}
     - target: {fileID: 1866055618575244970, guid: dd1deead00897d6438a3b639ac7be910, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 30057648b89889746b031ce3b52194cc, type: 2}
     - target: {fileID: 2654710643864952076, guid: dd1deead00897d6438a3b639ac7be910, type: 3}
@@ -183,11 +180,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3619779780356698544, guid: dd1deead00897d6438a3b639ac7be910, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 30057648b89889746b031ce3b52194cc, type: 2}
     - target: {fileID: 4532565240376344018, guid: dd1deead00897d6438a3b639ac7be910, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 30057648b89889746b031ce3b52194cc, type: 2}
     - target: {fileID: 7029002646752810943, guid: dd1deead00897d6438a3b639ac7be910, type: 3}
@@ -195,7 +192,7 @@ PrefabInstance:
       value: Cuboid_Ruhanka
       objectReference: {fileID: 0}
     - target: {fileID: 7591970385895471917, guid: dd1deead00897d6438a3b639ac7be910, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 30057648b89889746b031ce3b52194cc, type: 2}
     - target: {fileID: 7941038991563984807, guid: dd1deead00897d6438a3b639ac7be910, type: 3}
@@ -207,19 +204,19 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8221448664032188560, guid: dd1deead00897d6438a3b639ac7be910, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 30057648b89889746b031ce3b52194cc, type: 2}
     - target: {fileID: 8596597406107213955, guid: dd1deead00897d6438a3b639ac7be910, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 30057648b89889746b031ce3b52194cc, type: 2}
     - target: {fileID: 8732866345780050223, guid: dd1deead00897d6438a3b639ac7be910, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 30057648b89889746b031ce3b52194cc, type: 2}
     - target: {fileID: 8904808403345141733, guid: dd1deead00897d6438a3b639ac7be910, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 30057648b89889746b031ce3b52194cc, type: 2}
     m_RemovedComponents: []
@@ -439,7 +436,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1888127771
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -453,6 +450,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1

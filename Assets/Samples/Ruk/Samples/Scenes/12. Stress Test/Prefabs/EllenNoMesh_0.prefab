@@ -59,6 +59,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
@@ -80,9 +85,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &3207333710496286195
 MonoBehaviour:
@@ -96,6 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b34ef51d48dc546b4e80ec8bf8d424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attachedBoneIndex: -1
 --- !u!1001 &5316387715516232876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -173,11 +181,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 13700002, guid: a5674d01884853d4e8f2386a171e14d9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 39855552a32e3bf4c907bb0d28a6b593, type: 2}
     - target: {fileID: 13700002, guid: a5674d01884853d4e8f2386a171e14d9, type: 3}
-      propertyPath: m_Materials.Array.data[5]
+      propertyPath: 'm_Materials.Array.data[5]'
       value: 
       objectReference: {fileID: 2100000, guid: 39855552a32e3bf4c907bb0d28a6b593, type: 2}
     m_RemovedComponents:
@@ -212,9 +220,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigConfigSource: 0
   avatar: {fileID: 0}
+  avatarOptimizationMask: {fileID: 0}
   applyRootMotion: 0
   animationCulling: 0
   boneEntityStrippingMode: 1
+  rootMotionMode: 0
   boneStrippingMask: {fileID: 31900000, guid: 827aaec9c4e34a8448ba15353f615d70, type: 2}
   hasAnimationEvents: 0
   hasAnimatorControllerEvents: 0

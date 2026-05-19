@@ -49,6 +49,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 3
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
@@ -74,9 +79,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -223,6 +230,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
@@ -249,9 +261,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -406,11 +420,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7568593939133741704, guid: 6beb0cdb1cb98d346ad31698603c0bf9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6b5886c0a5c46f14da1596891a165cff, type: 2}
     - target: {fileID: 8138119320366143625, guid: 6beb0cdb1cb98d346ad31698603c0bf9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6b5886c0a5c46f14da1596891a165cff, type: 2}
     m_RemovedComponents: []
@@ -446,6 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b34ef51d48dc546b4e80ec8bf8d424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attachedBoneIndex: -1
 --- !u!1 &8252410727006054990 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3544144123620774876, guid: 6beb0cdb1cb98d346ad31698603c0bf9, type: 3}
@@ -463,6 +478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b34ef51d48dc546b4e80ec8bf8d424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attachedBoneIndex: -1
 --- !u!1001 &5316387715516232876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -540,11 +556,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 13700002, guid: a5674d01884853d4e8f2386a171e14d9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 39855552a32e3bf4c907bb0d28a6b593, type: 2}
     - target: {fileID: 13700002, guid: a5674d01884853d4e8f2386a171e14d9, type: 3}
-      propertyPath: m_Materials.Array.data[5]
+      propertyPath: 'm_Materials.Array.data[5]'
       value: 
       objectReference: {fileID: 2100000, guid: 39855552a32e3bf4c907bb0d28a6b593, type: 2}
     m_RemovedComponents:
@@ -587,9 +603,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigConfigSource: 0
   avatar: {fileID: 0}
+  avatarOptimizationMask: {fileID: 0}
   applyRootMotion: 0
   animationCulling: 0
   boneEntityStrippingMode: 1
+  rootMotionMode: 0
   boneStrippingMask: {fileID: 31900000, guid: 827aaec9c4e34a8448ba15353f615d70, type: 2}
   hasAnimationEvents: 0
   hasAnimatorControllerEvents: 0
@@ -606,7 +624,7 @@ LODGroup:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5316387715516333092}
-  serializedVersion: 2
+  serializedVersion: 3
   m_LocalReferencePoint: {x: 0.16816211, y: 0.8358557, z: -0.46549013}
   m_Size: 1.8135028
   m_FadeMode: 0
@@ -622,6 +640,7 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1640195069157296112}
   m_Enabled: 1
+  m_GlobalIlluminationLOD: 0
 --- !u!4 &5316387715516622848 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400556, guid: a5674d01884853d4e8f2386a171e14d9, type: 3}

@@ -275,11 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
   m_Name: DefaultVolumeProfile
   m_EditorClassIdentifier: 
-  components:
-  - {fileID: -4327609846320657487}
-  - {fileID: -7300937337941152750}
-  - {fileID: 8106726550383765574}
-  - {fileID: -4079106081355486206}
+  components: []
 --- !u!114 &8106726550383765574
 MonoBehaviour:
   m_ObjectHideFlags: 3

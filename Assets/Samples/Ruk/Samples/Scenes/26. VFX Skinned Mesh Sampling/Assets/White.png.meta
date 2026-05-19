@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: f7b0e5b8794f04144823cdae4f92ec55
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298480
+  packageName: Rukhanka Animation System 2
+  packageVersion: 2.9.0
+  assetPath: Packages/com.rukhanka.animation/Samples~/Samples/Scenes/26. VFX Skinned Mesh Sampling/Assets/White.png
+  uploadId: 897522
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -53,7 +60,9 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 0
+  spriteTessellationMethod: 0
   spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
   textureType: 0
   textureShape: 1
   singleChannelComponent: 0
@@ -115,10 +124,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 298480
-  packageName: Rukhanka Animation System 2
-  packageVersion: 2.9.0
-  assetPath: Packages/com.rukhanka.animation/Samples~/Samples/Scenes/26. VFX Skinned Mesh Sampling/Assets/White.png
-  uploadId: 897522

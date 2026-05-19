@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: WorldTimeScaleSettings
   m_EditorClassIdentifier: BovineLabs.Timeline.Time.Authoring::BovineLabs.Timeline.Time.Authoring.WorldTimeScaleSettings
   defaultTimeScale: 1
+  scaleFixedDeltaTime: 1
+  defaultFixedDeltaTime: 0.02
