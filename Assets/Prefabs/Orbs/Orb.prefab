@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 3318795076265432355}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.55289, y: 2.3, z: -3.94039}
+  m_LocalPosition: {x: -10.47, y: 0.53, z: -6.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -108,15 +108,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccea9ea98e38942e0b0938c27ed1903e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Physics.Custom::Unity.Physics.Authoring.PhysicsBodyAuthoring
-  m_MotionType: 0
+  m_MotionType: 1
   m_Smoothing: 0
   m_Mass: 1
   m_LinearDamping: 0.01
   m_AngularDamping: 0.05
   m_InitialLinearVelocity:
-    x: -100
+    x: 0
     y: 0
-    z: 0
+    z: 100
   m_InitialAngularVelocity:
     x: 0
     y: 0
@@ -355,8 +355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e2b761f37c14d76a08b75971388e6b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.InitializeTransformAuthoring
-  From: 2
-  To: 1
+  From: 1
+  To: 0
   Position: 1
   Rotation: 0
   Scale: 0

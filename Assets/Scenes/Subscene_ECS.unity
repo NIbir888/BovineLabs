@@ -6897,7 +6897,7 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -3716204314938662831, guid: ac0a400d634741c4283428be9f88609e, type: 2}
-    value: {fileID: 459224084}
+    value: {fileID: 459224082}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1167555991
@@ -8725,6 +8725,7 @@ GameObject:
   - component: {fileID: 1861921127}
   - component: {fileID: 1861921126}
   - component: {fileID: 1861921129}
+  - component: {fileID: 1861921130}
   m_Layer: 0
   m_Name: Reaction
   m_TagString: Untagged
@@ -8770,7 +8771,7 @@ MonoBehaviour:
     - Name: OnInputUnleashed
       Condition: {fileID: 11400000, guid: 4214d3a4432065a45bf13cc0bee81e66, type: 2}
       Target: 1
-      Operation: 1
+      Operation: 0
       ComparisonMode: 0
       Value: 1
       CustomValue:
@@ -8842,8 +8843,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateAuthoring
   Create:
   - Definition: {fileID: 11400000, guid: f8a8a41fca8078c438333b6aca220333, type: 2}
-    Target: 0
+    Target: 1
     DestroyOnDisabled: 0
+--- !u!114 &1861921130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861921124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring
 --- !u!1 &1962715938
 GameObject:
   m_ObjectHideFlags: 0
