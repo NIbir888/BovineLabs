@@ -46,16 +46,17 @@
       "hash": "a09c68103ebba5104b7a3dc385056a8f1b5467e1"
     },
     "com.bovinelabs.hitstop": {
-      "version": "file:BovineLabs.HitStop",
+      "version": "https://github.com/IAFahim/BovineLabs.HitStop.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.burst": "1.8.11",
         "com.unity.entities": "6.5.0",
         "com.unity.mathematics": "1.3.2",
         "com.bovinelabs.core": "1.6.1",
         "com.bovinelabs.reaction": "1.0.0"
-      }
+      },
+      "hash": "e0ea41f3d633a572db6b6965ebd816d211261d3a"
     },
     "com.bovinelabs.quill": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.quill",
@@ -76,25 +77,18 @@
       },
       "hash": "c915871fde7ff01a34f34513fdfd00763bbb05f3"
     },
-    "com.bovinelabs.reaction.addon": {
-      "version": "file:com.bovinelabs.reaction.addon",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.test-framework": "1.6.0"
-      }
-    },
     "com.bovinelabs.spatial": {
-      "version": "file:BovineLabs.Spatial",
+      "version": "https://github.com/IAFahim/BovineLabs.Spatial.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.burst": "1.8.11",
         "com.unity.collections": "6.5.0",
         "com.unity.entities": "6.5.0",
         "com.unity.mathematics": "1.3.2",
         "com.bovinelabs.core": "1.6.1"
-      }
+      },
+      "hash": "b99cee8f59b6092ff62bbb9d2bcf9d6e2638da2f"
     },
     "com.bovinelabs.timeline": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.timeline",
@@ -107,9 +101,9 @@
       "hash": "c915871fde7ff01a34f34513fdfd00763bbb05f3"
     },
     "com.bovinelabs.timeline.animation": {
-      "version": "file:BovineLabs.Timeline.Animation",
+      "version": "https://github.com/IAFahim/BovineLabs.Timeline.Animation.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.entities": "6.5.0",
         "com.unity.collections": "6.5.0",
@@ -117,34 +111,38 @@
         "com.unity.mathematics": "1.3.2",
         "com.bovinelabs.timeline.core": "1.0.0",
         "com.rukhanka.animation": "1.0.0"
-      }
+      },
+      "hash": "b150282da58c00afeea02297c154c49f1119575f"
     },
     "com.bovinelabs.timeline.core": {
-      "version": "file:BovineLabs.Timeline.Core",
+      "version": "https://github.com/IAFahim/com.bovinelabs.timeline.core.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.entities": "6.5.0",
         "com.unity.collections": "6.5.0",
         "com.unity.burst": "1.8.11",
         "com.unity.mathematics": "1.3.2"
-      }
+      },
+      "hash": "f6498e18f80991ad006a0482e9ed2100311b3f9e"
     },
     "com.bovinelabs.timeline.entitylinks": {
-      "version": "file:BovineLabs.Timeline.EntityLinks",
+      "version": "https://github.com/IAFahim/BovineLabs.Timeline.EntityLinks.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.test-framework": "1.6.0"
-      }
+      },
+      "hash": "5a562cb3655431e384b103d073904c3e92b18a99"
     },
     "com.bovinelabs.timeline.essence": {
-      "version": "file:BovineLabs.Timeline.Essence",
+      "version": "https://github.com/IAFahim/BovineLabs.Timeline.Essence.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.test-framework": "1.6.0"
-      }
+      },
+      "hash": "b7e08d05ab207796509c3df55f0c13f64c3a710b"
     },
     "com.bovinelabs.timeline.group-tool": {
       "version": "https://github.com/IAFahim/com.bovinelabs.timeline.group-tool.git",
@@ -155,22 +153,10 @@
       },
       "hash": "c326a49f87956b6e42017946507f2df7a2518a09"
     },
-    "com.bovinelabs.timeline.parenting": {
-      "version": "file:com.bovinelabs.timeline.parenting",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.entities": "6.5.0",
-        "com.unity.collections": "6.5.0",
-        "com.unity.burst": "1.8.11",
-        "com.unity.mathematics": "1.3.2",
-        "com.bovinelabs.timeline.core": "1.0.0"
-      }
-    },
     "com.bovinelabs.timeline.physics": {
-      "version": "file:BovineLabs.Timeline.Physics",
+      "version": "https://github.com/IAFahim/BovineLabs.Timeline.Physics.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.burst": "1.8.11",
         "com.unity.collections": "6.5.0",
@@ -183,12 +169,13 @@
         "com.bovinelabs.timeline.entitylinks": "1.0.0",
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
-      }
+      },
+      "hash": "fa3b92a9b8238a039e767edf49400cd14775ed86"
     },
     "com.bovinelabs.timeline.playerinputs": {
-      "version": "file:BovineLabs.Timeline.PlayerInputs",
+      "version": "https://github.com/IAFahim/BovineLabs.Timeline.PlayerInputs.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.entities": "1.3.0",
         "com.unity.collections": "1.5.1",
@@ -198,25 +185,13 @@
         "com.bovinelabs.reaction": "2.0.0",
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
-      }
-    },
-    "com.bovinelabs.timeline.spatial": {
-      "version": "file:BovineLabs.Timeline.Spatial",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.burst": "1.8.11",
-        "com.unity.collections": "6.5.0",
-        "com.unity.entities": "6.5.0",
-        "com.unity.mathematics": "1.3.2",
-        "com.bovinelabs.core": "1.6.1",
-        "com.bovinelabs.timeline.core": "1.0.0"
-      }
+      },
+      "hash": "929c77fe67fc514aa88bab39e7a813251ddac316"
     },
     "com.bovinelabs.timeline.time": {
-      "version": "file:BovineLabs.Timeline.Time",
+      "version": "https://github.com/IAFahim/BovineLabs.Timeline.Time.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.burst": "1.8.11",
         "com.unity.collections": "6.5.0",
@@ -228,22 +203,8 @@
         "com.bovinelabs.reaction": "1.0.0",
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
-      }
-    },
-    "com.bovinelabs.timeline.transform": {
-      "version": "file:com.bovinelabs.timeline.transform",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.burst": "1.8.11",
-        "com.unity.collections": "6.5.0",
-        "com.unity.entities": "6.5.0",
-        "com.unity.mathematics": "1.3.2",
-        "com.unity.timeline": "1.8.12",
-        "com.bovinelabs.core": "1.6.1",
-        "com.bovinelabs.timeline": "1.0.0",
-        "com.bovinelabs.timeline.core": "1.0.0"
-      }
+      },
+      "hash": "167b75dfac24f4c8d2b371e46cf605e3da591381"
     },
     "com.bovinelabs.timeline.ui": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.UI.git",
