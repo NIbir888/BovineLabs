@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4398189604605314157
+--- !u!114 &-9178200989287106019
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,31 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fe44c7185fd74120b9c5ea101d9fa1c, type: 3}
-  m_Name: PhysicsTriggerInstantiateClip
-  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerInstantiateClip
-  objectDefinition: {fileID: 11400000, guid: a07bc4af078be8c4fb0fb090a5b53d15, type: 2}
-  triggerState: 1
-  positionMode: 2
-  positionOffset: {x: 0, y: 0, z: 0}
-  positionOffsetSpace: 4
-  rotationMode: 2
-  rotationOffset: {x: 0, y: 0, z: 0}
-  assignParent: 0
-  assignParentLink: {fileID: 0}
-  targetLinkOverride: {fileID: 0}
---- !u!114 &-3829922170885015253
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 593d6aae67696020b83d1053a76122bc, type: 3}
-  m_Name: Stateful Trigger Track
-  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.StatefulTriggerTrack
+  m_Script: {fileID: 11500000, guid: d1eb07044bac47eb945f00cca0ecede8, type: 3}
+  m_Name: Axis Transform Track
+  m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.AxisTransformTrack
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
@@ -46,10 +24,10 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: -4398189604605314157}
-    m_Duration: 1.9666666666666666
+    m_Asset: {fileID: -4431501668642091425}
+    m_Duration: 1
     m_TimeScale: 1
-    m_ParentTrack: {fileID: -3829922170885015253}
+    m_ParentTrack: {fileID: -9178200989287106019}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: 0
@@ -111,10 +89,37 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: PhysicsTriggerInstantiateClip
+    m_DisplayName: AxisTransformClip
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
+--- !u!114 &-4431501668642091425
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60945455a8404617ac2c6ee13a5953ed, type: 3}
+  m_Name: AxisTransformClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.AxisTransformClip
+  ReadRootFrom: 2
+  ConsumerLink: {fileID: 0}
+  AnchorLink: {fileID: 0}
+  Action: {fileID: 0}
+  Range: 2
+  Plane: {x: 0, y: 1, z: 0}
+  Smoothing: 0
+  LeashRadius: 2
+  Drag: 0
+  DecayRate: 0
+  Mode: 0
+  IgnoreParentRotation: 1
+  KeepLastPosition: 0
+  LocalSpace: 0
+  CameraRelative: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,7 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.TimelineAsset
   m_Version: 0
   m_Tracks:
-  - {fileID: -3829922170885015253}
+  - {fileID: -9178200989287106019}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
