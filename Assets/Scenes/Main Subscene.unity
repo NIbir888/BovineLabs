@@ -373,6 +373,11 @@ MonoBehaviour:
         Tag07: 0
     m_SerializedVersion: 1
   m_SerializedVersion: 3
+--- !u!1 &248611092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5927102515946596961, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
+  m_PrefabInstance: {fileID: 1360668509}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &307871852
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,7 +575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Timeline.Authoring::BovineLabs.Reaction.Timeline.Authoring.ActionTimelineAuthoring
   Timelines:
-  - Director: {fileID: 0}
+  - Director: {fileID: 1111869629}
     InitialTime: 0
     DisableTimelineOnDeactivate: 0
     ResetWhenActive: 0
@@ -693,6 +698,10 @@ PlayableDirector:
     value: {fileID: 1360668515}
   - key: {fileID: 6968598287262950839, guid: 1dc142f0ed9123c45a73f5db328ea610, type: 2}
     value: {fileID: 1305230996}
+  - key: {fileID: 6122823532550355692, guid: 1dc142f0ed9123c45a73f5db328ea610, type: 2}
+    value: {fileID: 1305230996}
+  - key: {fileID: -7385214739160581218, guid: 1dc142f0ed9123c45a73f5db328ea610, type: 2}
+    value: {fileID: 1360668515}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &963767316
@@ -911,7 +920,7 @@ Transform:
   m_GameObject: {fileID: 991589632}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.48, z: 4.69}
+  m_LocalPosition: {x: 0, y: 0.48, z: 6.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1465,6 +1474,25 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 1146922766023240353, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
   m_PrefabInstance: {fileID: 1360668509}
   m_PrefabAsset: {fileID: 0}
+--- !u!320 &1305231003
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248611092}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 1bae0adc2cbfec74b9d95de9a0d6ecb8, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -6738523402769778912, guid: 1bae0adc2cbfec74b9d95de9a0d6ecb8, type: 2}
+    value: {fileID: 1305230996}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1356441852
 GameObject:
   m_ObjectHideFlags: 0
@@ -1901,7 +1929,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1486575252185223758, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1356441853}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5927102515946596961, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1305231003}
   m_SourcePrefab: {fileID: 100100000, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
 --- !u!1 &1360668510 stripped
 GameObject:
