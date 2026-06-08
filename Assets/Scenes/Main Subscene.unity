@@ -766,6 +766,7 @@ GameObject:
   - component: {fileID: 604253875}
   - component: {fileID: 604253877}
   - component: {fileID: 604253876}
+  - component: {fileID: 604253878}
   m_Layer: 0
   m_Name: Bullet Time
   m_TagString: Untagged
@@ -819,6 +820,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Authoring::BovineLabs.Core.Authoring.TransformAuthoring
   TransformUsageFlags: 2
+--- !u!114 &604253878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604253874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7305cdf55c354c0eb811d408fe38ad23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.StatAuthoring
+  AddStats: 1
+  StatDefaults: []
+  StatDefaultGroups: []
+  StatsCanBeModified: 1
+  AddIntrinsics: 1
+  IntrinsicDefaults:
+  - Intrinsic: {fileID: 11400000, guid: 4dc2625766e1e424985445de465453a3, type: 2}
+    Value: 0
+  - Intrinsic: {fileID: 11400000, guid: 4dc2625766e1e424985445de465453a3, type: 2}
+    Value: 0
+  IntrinsicDefaultGroups: []
+  Initialize:
+    CopyFrom: 3
 --- !u!1 &754536709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,7 +1976,7 @@ Transform:
   m_GameObject: {fileID: 1356441852}
   serializedVersion: 2
   m_LocalRotation: {x: -0.67410815, y: 0.34369618, z: 0.1194633, w: 0.6427905}
-  m_LocalPosition: {x: -1.86, y: -0.32, z: -3.81}
+  m_LocalPosition: {x: -2.11, y: -1.16, z: -3.68}
   m_LocalScale: {x: 0.050885007, y: 0.063605204, z: 3.7273254}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2518,7 +2544,7 @@ Transform:
   m_GameObject: {fileID: 1629961248}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.48, y: 1.2, z: 0}
+  m_LocalPosition: {x: 1.48, y: 2.24, z: 0}
   m_LocalScale: {x: 1, y: 2.3375, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2783,6 +2809,10 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 4473529133342371257, guid: f85e055a7e05e034cb301f2560b96e89, type: 2}
+    value: {fileID: 1629961253}
+  - key: {fileID: -300548313327470801, guid: f85e055a7e05e034cb301f2560b96e89, type: 2}
+    value: {fileID: 1629961253}
+  - key: {fileID: 3384725775518720517, guid: f85e055a7e05e034cb301f2560b96e89, type: 2}
     value: {fileID: 1629961253}
   m_ExposedReferences:
     m_References: []
