@@ -235,6 +235,21 @@
       },
       "hash": "8e5f28e3ddf30c5728928a3a31db5954edffced5"
     },
+    "com.efarjeon.player-xx-template": {
+      "version": "file:player-xx-template",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.entities": "6.6.0",
+        "com.unity.physics": "6.6.0",
+        "com.unity.render-pipelines.universal": "17.6.0",
+        "com.bovinelabs.core": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.core",
+        "com.bovinelabs.essence": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.essence",
+        "com.bovinelabs.reaction": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.reaction",
+        "com.bovinelabs.timeline.entitylinks": "https://github.com/IAFahim/BovineLabs.Timeline.EntityLinks.git",
+        "com.bovinelabs.timeline.playerinputs": "https://github.com/IAFahim/BovineLabs.Timeline.PlayerInputs.git"
+      }
+    },
     "com.rukhanka.animation": {
       "version": "https://github.com/iafahim/com.rukhanka.animation.git",
       "depth": 0,
