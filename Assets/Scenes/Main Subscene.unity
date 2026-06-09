@@ -1614,8 +1614,27 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Side Dodge
-      Condition: {fileID: 11400000, guid: 665d473e74838f54ba80f163eca4e1c1, type: 2}
+    - Name: Total Stay Counts
+      Condition: {fileID: 11400000, guid: 0fe8de94645c27e4594f897def61ceb2, type: 2}
+      Target: 3
+      Operation: 1
+      ComparisonMode: 0
+      Value: 1
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
+    - Name: OnHit
+      Condition: {fileID: 11400000, guid: 969f72414a804b24fb636f81c8f1c407, type: 2}
       Target: 2
       Operation: 1
       ComparisonMode: 0
@@ -1655,7 +1674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
   Owner: {fileID: 1684635271}
-  Source: {fileID: 0}
+  Source: {fileID: 604253874}
   Target: {fileID: 1684635271}
   Custom: {fileID: 0}
   Initialize:
