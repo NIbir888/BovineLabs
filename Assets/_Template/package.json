@@ -1,0 +1,23 @@
+{
+  "name": "com.bovinelabs.template",
+  "displayName": "BovineLabs Template",
+  "version": "0.1.0",
+  "unity": "6000.0",
+  "description": "Reusable BovineLabs template assets for Unity projects.",
+  "keywords": [
+    "bovinelabs",
+    "template",
+    "prefab"
+  ],
+  "author": {
+    "name": "BovineLabs"
+  },
+  "dependencies": {
+    "com.unity.entities": "6.6.0",
+    "com.unity.physics": "6.6.0",
+    "com.bovinelabs.core": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.core",
+    "com.bovinelabs.essence": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.essence",
+    "com.bovinelabs.reaction": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.reaction",
+    "com.bovinelabs.timeline.entitylinks": "https://github.com/IAFahim/BovineLabs.Timeline.EntityLinks.git"
+  }
+}
