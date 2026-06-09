@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3746351688049138007}
   - component: {fileID: 7143153099347964163}
   m_Layer: 0
-  m_Name: Bullet Tra
+  m_Name: Bullet Tra exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,7 +124,7 @@ MonoBehaviour:
   Target: {fileID: 0}
   Custom: {fileID: 0}
   Initialize:
-    Target: 3
+    Target: 2
 --- !u!114 &6739602442612765960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 11400000, guid: ce77fdf7a2fd792418f80980496efdda, type: 2}
+  Definition: {fileID: 11400000, guid: 22f93b0f124fc2247badedd9adc202f4, type: 2}
 --- !u!114 &7143153099347964163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,5 +179,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
   Intrinsics:
   - Intrinsic: {fileID: 11400000, guid: 0fe8de94645c27e4594f897def61ceb2, type: 2}
-    Amount: 1
+    Amount: -1
     Target: 3
