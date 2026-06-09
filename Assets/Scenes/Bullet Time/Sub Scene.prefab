@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &2927468754005092998
+--- !u!1001 &3025814974112710493
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1456118356551693595, guid: 60702c98e0a3040469c8196fc02b20a8, type: 3}
       propertyPath: m_Name
-      value: Sub Scene Variant
+      value: Sub Scene
       objectReference: {fileID: 0}
     - target: {fileID: 2370859127091808890, guid: 60702c98e0a3040469c8196fc02b20a8, type: 3}
       propertyPath: _SceneGUID
