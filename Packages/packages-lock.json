@@ -46,16 +46,17 @@
       "hash": "a09c68103ebba5104b7a3dc385056a8f1b5467e1"
     },
     "com.bovinelabs.hitstop": {
-      "version": "file:BovineLabs.HitStop",
+      "version": "https://github.com/IAFahim/BovineLabs.HitStop.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.burst": "1.8.11",
         "com.unity.entities": "6.5.0",
         "com.unity.mathematics": "1.3.2",
         "com.bovinelabs.core": "1.6.1",
         "com.bovinelabs.reaction": "1.0.0"
-      }
+      },
+      "hash": "8fb6f65f9bc3789964de3392698f792c83bd940f"
     },
     "com.bovinelabs.quill": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.quill",
@@ -110,9 +111,9 @@
       "hash": "bdbb9ea5abdb209165206ef35c7765a9c7584b15"
     },
     "com.bovinelabs.timeline.animation": {
-      "version": "file:BovineLabs.Timeline.Animation",
+      "version": "https://github.com/IAFahim/BovineLabs.Timeline.Animation.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.entities": "6.5.0",
         "com.unity.collections": "6.5.0",
@@ -120,7 +121,8 @@
         "com.unity.mathematics": "1.3.2",
         "com.bovinelabs.timeline.core": "1.0.0",
         "com.rukhanka.animation": "1.0.0"
-      }
+      },
+      "hash": "be6b7b67ad52b5c88438ba3e5bb04830a26ac9b3"
     },
     "com.bovinelabs.timeline.candidate": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Candidate.git",
@@ -139,15 +141,16 @@
       "hash": "bfbd26a08e89261ed01d1c1850e9c13e56d68e16"
     },
     "com.bovinelabs.timeline.core": {
-      "version": "file:BovineLabs.Timeline.Core",
+      "version": "https://github.com/IAFahim/com.bovinelabs.timeline.core.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.entities": "6.5.0",
         "com.unity.collections": "6.5.0",
         "com.unity.burst": "1.8.11",
         "com.unity.mathematics": "1.3.2"
-      }
+      },
+      "hash": "9f8db7a9eab98f34a294be326c39dcd68b4afb25"
     },
     "com.bovinelabs.timeline.entitylinks": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.EntityLinks.git",
