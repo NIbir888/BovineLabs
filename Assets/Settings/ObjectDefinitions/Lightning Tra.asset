@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6030fde919e1488ea7e5855f39cf1cd3, type: 3}
-  m_Name: Chain Lightning Sphere
+  m_Name: Lightning Tra
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinition
-  id: 7
+  id: 8
   friendlyName: 
   description: 
   categories: 0
-  prefab: {fileID: 9189944230171252453, guid: 0f674d434b5d75a4a8188d2101e881f0, type: 3}
+  prefab: {fileID: 2101219552767609903, guid: 03bd468e23ecd6d4ca665ec9e59bbb19, type: 3}
