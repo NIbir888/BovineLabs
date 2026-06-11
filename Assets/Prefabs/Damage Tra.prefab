@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2827452187554482125
+--- !u!1 &5578589919458890368
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,26 +8,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4975808110445492625}
-  - component: {fileID: 4857452752093838405}
-  - component: {fileID: 6960145095696435812}
-  - component: {fileID: 348709393651015763}
-  - component: {fileID: 5268449463040988018}
-  - component: {fileID: 4263188128075429773}
+  - component: {fileID: 2597389369015169549}
+  - component: {fileID: 1150366709065881345}
+  - component: {fileID: 3855534284605458086}
+  - component: {fileID: -723094685114344038}
+  - component: {fileID: 84691080330876617}
+  - component: {fileID: -4092360715190002667}
+  - component: {fileID: -4301640168840641611}
+  - component: {fileID: -2608011347887957103}
   m_Layer: 0
-  m_Name: Weapon Tra
+  m_Name: Damage Tra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4975808110445492625
+--- !u!4 &2597389369015169549
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2827452187554482125}
+  m_GameObject: {fileID: 5578589919458890368}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -36,21 +38,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4857452752093838405
+--- !u!33 &1150366709065881345
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2827452187554482125}
+  m_GameObject: {fileID: 5578589919458890368}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6960145095696435812
+--- !u!23 &3855534284605458086
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2827452187554482125}
+  m_GameObject: {fileID: 5578589919458890368}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -93,25 +95,38 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &348709393651015763
+--- !u!114 &-723094685114344038
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2827452187554482125}
+  m_GameObject: {fileID: 5578589919458890368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
+  Definition: {fileID: 11400000, guid: cc795bb1dca81de4387b58178c0ce3a1, type: 2}
+--- !u!114 &84691080330876617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5578589919458890368}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
---- !u!114 &5268449463040988018
+--- !u!114 &-4092360715190002667
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2827452187554482125}
+  m_GameObject: {fileID: 5578589919458890368}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
@@ -123,13 +138,13 @@ MonoBehaviour:
   Custom: {fileID: 0}
   Initialize:
     Target: 1
---- !u!114 &4263188128075429773
+--- !u!114 &-4301640168840641611
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2827452187554482125}
+  m_GameObject: {fileID: 5578589919458890368}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f6d5a07a3cf34c9da0f7aa29435adad0, type: 3}
@@ -142,11 +157,48 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions: []
+    conditions:
+    - Name: CurrentHealth
+      Condition: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
+      Target: 1
+      Operation: 3
+      ComparisonMode: 0
+      Value: 0
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+--- !u!114 &-2608011347887957103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5578589919458890368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
+  Intrinsics:
+  - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
+    Amount: -20
+    Target: 1
