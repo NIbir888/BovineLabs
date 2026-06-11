@@ -21,7 +21,7 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &451092427166678781
+--- !u!114 &278234799024236927
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33,7 +33,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe44c7185fd74120b9c5ea101d9fa1c, type: 3}
   m_Name: PhysicsTriggerInstantiateClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerInstantiateClip
-  objectDefinition: {fileID: 11400000, guid: 0a73a924ab65da140848b7e22fef8b6c, type: 2}
+  objectDefinition: {fileID: 11400000, guid: bfe6044f8f96b20408bbb06ecc9af3a2, type: 2}
   triggerState: 1
   positionMode: 2
   positionOffset: {x: 0, y: 0, z: 0}
@@ -69,7 +69,7 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 451092427166678781}
+    m_Asset: {fileID: 278234799024236927}
     m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3942163481558454261}
@@ -134,7 +134,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Healling Tra
+    m_DisplayName: Trap Tra
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
