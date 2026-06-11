@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:appui="Unity.AppUI.UI">
+    <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center; background-color: #2980b9; border-radius: 12px; border-width: 2px; border-color: #3498db;">
+        <appui:Icon name="map" size="L" style="color: white; margin-bottom: 8px;" />
+        <appui:Heading size="S" text="Minimap Active" style="color: white;" />
+    </ui:VisualElement>
+</ui:UXML>

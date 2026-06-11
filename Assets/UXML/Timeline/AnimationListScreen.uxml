@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements"
+    xmlns:appui="Unity.AppUI.UI"
+    xmlns:bl="BovineLabs.Anchor.Elements"
+    data-source-type="BovineLabs.Timeline.UI.Data.ViewModel.RowsViewModel, BovineLabs.Timeline.UI.Data">
+    <ui:VisualElement name="animation-list-screen" style="flex-grow: 1; flex-direction: column;">
+        <appui:Heading size="S" text="Animation Tracks" style="padding: 8px 12px;" />
+
+        <bl:AnchorGridView name="list"
+            item-template="project://database/Assets/UXML/Timeline/AnimationRow.uxml?fileID=9197481963319205126&amp;guid=30177419f88d5eb8294504681f783988&amp;type=3#AnimationRow"
+            item-height="40"
+            column-count="1"
+            selection-type="None"
+            style="flex-grow: 1;">
+            <Bindings>
+                <ui:DataBinding property="itemsSource" data-source-path="Rows" binding-mode="ToTarget" />
+            </Bindings>
+        </bl:AnchorGridView>
+
+        <Bindings>
+            <ui:DataBinding property="style.display" data-source-path="IsVisible" converter-id="DisplayStyle" />
+        </Bindings>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:appui="Unity.AppUI.UI">
+    <appui:Panel theme="dark" scale="medium" style="flex-grow: 1; justify-content: flex-end; padding: 40px; pointer-events: none;">
+        
+        <!-- The classic RPG dialog box at the bottom of the screen -->
+        <ui:VisualElement style="background-color: rgba(0, 0, 0, 0.85); border-radius: 16px; padding: 24px; border-width: 2px; border-color: rgba(255, 255, 255, 0.2); pointer-events: all;">
+            
+            <appui:Heading size="S" text="Mysterious Stranger" style="color: #3498db; margin-bottom: 12px;" />
+            
+            <!-- This is the target Text element. Notice it's totally empty initially! -->
+            <appui:Text name="dialog-text" size="L" text="" style="white-space: normal; color: white;" />
+            
+        </ui:VisualElement>
+        
+    </appui:Panel>
+</ui:UXML>

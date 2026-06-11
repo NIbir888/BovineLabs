@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements"
+    xmlns:appui="Unity.AppUI.UI">
+    <ui:VisualElement name="animation-row" style="flex-direction: row; justify-content: space-between; align-items: center; padding: 4px 8px;">
+        <appui:Text name="label" size="M">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="Label" binding-mode="ToTarget" />
+            </Bindings>
+        </appui:Text>
+        <appui:Text name="detail" size="S" primary="false">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="Value" binding-mode="ToTarget" />
+            </Bindings>
+        </appui:Text>
+    </ui:VisualElement>
+</ui:UXML>

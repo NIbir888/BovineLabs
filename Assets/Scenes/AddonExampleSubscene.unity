@@ -1161,12 +1161,16 @@ PlayableDirector:
     value: {fileID: 1064930412}
   - key: {fileID: 1957736623728883310, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
     value: {fileID: 588256451}
-  - key: {fileID: -2072559440870963355, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 1535064382}
-  - key: {fileID: -3635619655944061156, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 1360668510}
   - key: {fileID: -6555309319189992703, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
     value: {fileID: 588256451}
+  - key: {fileID: 6555129779255046496, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
+    value: {fileID: 588256451}
+  - key: {fileID: 5533054973063021078, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
+    value: {fileID: 1360668512}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1241495310
@@ -1336,6 +1340,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2063654119392266330, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
   m_PrefabInstance: {fileID: 1360668509}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1360668512 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 318942152117994479, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
+  m_PrefabInstance: {fileID: 1360668509}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360668510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
 --- !u!1 &1387560016 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2306455584813647898, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}

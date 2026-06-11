@@ -1,0 +1,20 @@
+<engine:UXML
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:appui="Unity.AppUI.UI"
+    xmlns:bl="BovineLabs.Anchor.Elements">
+    <engine:VisualElement name="data-display-view"
+        data-source-type="BovineLabs.Timeline.UI.Data.ViewModel.DataDisplayViewModel, BovineLabs.Timeline.UI.Data"
+        style="flex-grow: 1;">
+        <Bindings>
+            <engine:DataBinding property="style.display" data-source-path="IsVisible"
+                binding-mode="ToTarget" converter-id="DisplayStyle" />
+        </Bindings>
+        <appui:Heading size="S" text="Health" />
+        <bl:AnchorGridView name="list" item-template="project://database/Assets/UXML/Timeline/DataRow.uxml?fileID=9197481963319205126&amp;guid=ae3dca6ae43bea39d9e978a54620f68e&amp;type=3#DataRow"
+            item-height="40" column-count="1" selection-type="None" style="flex-grow: 1;">
+            <Bindings>
+                <engine:DataBinding property="itemsSource" data-source-path="Rows" binding-mode="ToTarget" />
+            </Bindings>
+        </bl:AnchorGridView>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:appui="Unity.AppUI.UI">
+    <!-- Reference to our stylesheet (assuming the GUID gets resolved properly or use simple project string) -->
+    <ui:Style src="DamageOverlay.uss" />
+
+    <appui:Panel theme="dark" scale="medium" style="flex-grow: 1;">
+        <!-- Some dummy content to see the flash over it -->
+        <ui:VisualElement style="flex-grow: 1; justify-content: center; align-items: center;">
+            <appui:Heading size="L" text="Gameplay Screen" />
+        </ui:VisualElement>
+
+        <!-- The hidden overlay that spans the whole screen. This is our target! -->
+        <ui:VisualElement name="damage-vignette" class="damage-vignette" />
+    </appui:Panel>
+</ui:UXML>

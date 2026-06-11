@@ -43,6 +43,10 @@ MonoBehaviour:
     Path: Assets/Settings/UI/Actions
   - Key: bl.ar.anchornavanimation
     Path: Assets/Settings/UI/Animations
+  - Key: bl.ar.gridfield
+    Path: Assets/Settings/Schemas/GridFields
+  - Key: bl.ar.gridstamp
+    Path: Assets/Settings/Schemas/GridStamps
   prebakeScenes: []
   startupScene: {fileID: 0}
   defaultSettingsAuthoring: {fileID: 0}

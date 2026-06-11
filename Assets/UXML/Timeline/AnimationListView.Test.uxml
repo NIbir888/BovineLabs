@@ -1,0 +1,10 @@
+<engine:UXML
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:appui="Unity.AppUI.UI"
+    xmlns:bl="BovineLabs.Anchor.Elements">
+    <appui:Panel theme="dark" scale="medium" style="flex-grow: 1;">
+        <appui:Heading size="S" text="Animation Tracks (Test)" />
+        <bl:AnchorGridView name="list" item-template="project://database/Assets/UXML/Timeline/AnimationRow.uxml?fileID=9197481963319205126&amp;guid=30177419f88d5eb8294504681f783988&amp;type=3#AnimationRow"
+            item-height="40" column-count="1" selection-type="None" style="flex-grow: 1;" />
+    </appui:Panel>
+</engine:UXML>

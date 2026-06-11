@@ -1,0 +1,19 @@
+.damage-vignette {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    pointer-events: none;
+}
+
+/* The class we will dynamically apply from the Timeline */
+.damage-vignette--active {
+    background-color: rgba(255, 0, 0, 0.4);
+    transition-duration: 0.05s; /* Fast flash in */
+    transition-timing-function: ease-in;
+}
