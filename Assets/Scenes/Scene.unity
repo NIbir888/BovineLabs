@@ -143,7 +143,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26017920}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07c4d5b5c6f8498eae164ab0766dca85, type: 3}
   m_Name: 
@@ -489,15 +489,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a335734b1572644a6a5d09d87adc65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Scenes::Unity.Scenes.SubScene
-  _SceneAsset: {fileID: 102900000, guid: dc90f26a0c2e0674ca49c9c1b8eaf25a, type: 3}
+  _SceneAsset: {fileID: 102900000, guid: 07207c54dbb35944cb94adc100318613, type: 3}
   _HierarchyColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   AutoLoadScene: 1
   _SceneGUID:
     Value:
-      x: 2788100557
-      y: 1197531840
-      z: 480023724
-      w: 2771365515
+      x: 1170670192
+      y: 1150630845
+      z: 484067772
+      w: 828904192
 --- !u!4 &450306934
 Transform:
   m_ObjectHideFlags: 0
