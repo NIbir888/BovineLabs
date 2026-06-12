@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1713723822158867420}
   - component: {fileID: 5133330964462573710}
   m_Layer: 0
-  m_Name: Chain Lightning Tra
+  m_Name: Chain Lightning Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
   Intrinsics:
   - Intrinsic: {fileID: 11400000, guid: efd48bf8782549f44a6a582753327bfb, type: 2}
-    Amount: 1
+    Amount: 3
     Target: 1
 --- !u!114 &5133330964462573710
 MonoBehaviour:
