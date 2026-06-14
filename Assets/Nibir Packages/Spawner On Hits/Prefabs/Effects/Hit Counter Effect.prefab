@@ -124,7 +124,7 @@ MonoBehaviour:
   Target: {fileID: 0}
   Custom: {fileID: 0}
   Initialize:
-    Target: 3
+    Target: 2
 --- !u!114 &-6956012844168074525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,7 +167,7 @@ MonoBehaviour:
   Intrinsics:
   - Intrinsic: {fileID: 11400000, guid: 21e280aa6cbdd91539ff3727faf7d7c1, type: 2}
     Amount: 1
-    Target: 3
+    Target: 2
 --- !u!114 &2997045233570951764
 MonoBehaviour:
   m_ObjectHideFlags: 0
