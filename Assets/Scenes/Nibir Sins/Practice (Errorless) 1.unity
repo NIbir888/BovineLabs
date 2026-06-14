@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 50298965}
   - component: {fileID: 50298964}
   m_Layer: 0
-  m_Name: Spawner On Hits
+  m_Name: Spawner Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -524,6 +524,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 4698374443046883825, guid: 8fa2bc60e78a4a74b8933bd27f36c554, type: 2}
     value: {fileID: 379282648}
+  - key: {fileID: -1273600986502222397, guid: 8fa2bc60e78a4a74b8933bd27f36c554, type: 2}
+    value: {fileID: 379282648}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &379282650
@@ -552,10 +554,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
   Owner: {fileID: 1419340376}
   Source: {fileID: 1419340376}
-  Target: {fileID: 1419340376}
+  Target: {fileID: 0}
   Custom: {fileID: 0}
   Initialize:
-    Target: 3
+    Target: 1
 --- !u!1 &537042899
 GameObject:
   m_ObjectHideFlags: 0
