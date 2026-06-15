@@ -17,9 +17,11 @@ MonoBehaviour:
     - Action: {fileID: 1120369429361536294, guid: 052faaac586de48259a63d0c4782560b, type: 3}
       Mode: 0
       Phase: 0
+      MaxGapTicks: 0
     Condition: {fileID: 11400000, guid: 969f72414a804b24fb636f81c8f1c407, type: 2}
     Value: 1
-  RouteTo: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+    Repeatable: 1
+  RouteTo: {fileID: 11400000, guid: 2788c80bc835e964bad340c81689c3d4, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
