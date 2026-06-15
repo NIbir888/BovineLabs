@@ -179,6 +179,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2366852705134137419, guid: cddab20504f09a542a46666f3bf3ae46, type: 3}
+      propertyPath: Initialize.Target
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5048870775963965860, guid: cddab20504f09a542a46666f3bf3ae46, type: 3}
       propertyPath: m_Name
       value: Spawner Weapon
@@ -863,7 +867,7 @@ MonoBehaviour:
         Category02: 0
         Category03: 0
         Category04: 0
-        Category05: 0
+        Category05: 1
         Category06: 0
         Category07: 0
         Category08: 0
@@ -1244,11 +1248,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7509363276189378629, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.73
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 7509363276189378629, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7509363276189378629, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1412,7 +1416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8772386852086223861, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_GravityFactor
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
