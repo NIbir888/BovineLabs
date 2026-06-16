@@ -357,8 +357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46cd83fd3ac57cee8bbb6917743282b6, type: 3}
   m_Name: PhysicsDragClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsDragClip
-  linearDrag: 4
-  angularDrag: 4
+  linearDrag: 10
+  angularDrag: 10
   strengthStat: {fileID: 0}
   readStatFrom: 4
   readStatLink: {fileID: 0}
@@ -505,7 +505,7 @@ MonoBehaviour:
   directionMode: 1
   linearForce: {x: 0, y: 0, z: 0}
   space: 4
-  magnitude: 60
+  magnitude: 80
   directionTarget: 1
   directionTargetLink: {fileID: 0}
   coneAzimuthCenter: 0
