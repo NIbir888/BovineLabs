@@ -387,7 +387,7 @@ Transform:
   m_GameObject: {fileID: 1136237102}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.42, z: -1.92}
+  m_LocalPosition: {x: 0, y: 6.3, z: -1.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb54ea4f67dc17342bcd49954c53502d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Physics.Hybrid::Unity.Physics.Authoring.PhysicsDebugDisplayAuthoring
-  DrawColliders: 1
+  DrawColliders: 0
   DrawColliderEdges: 0
   DrawColliderAabbs: 0
   DrawMassProperties: 0
@@ -1355,6 +1355,10 @@ PrefabInstance:
       propertyPath: IntrinsicDefaults.Array.data[1].Intrinsic
       value: 
       objectReference: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
+    - target: {fileID: 3266095648201149436, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3997087507869455515, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1371,6 +1375,14 @@ PrefabInstance:
       propertyPath: 'Links.Array.data[4]'
       value: 
       objectReference: {fileID: 1389582157}
+    - target: {fileID: 4941298995094742098, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190110449136340254, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5271235804501197941, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalPosition.z
       value: 3.15
@@ -1530,9 +1542,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2000588637}
     - target: {fileID: 6851071088977718392, guid: 6c6713bb800499e4296a4bd0f7903b83, type: 3}
+      propertyPath: m_InitialState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6851071088977718392, guid: 6c6713bb800499e4296a4bd0f7903b83, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 1373506579}
+    - target: {fileID: 7205439731623040832, guid: 6c6713bb800499e4296a4bd0f7903b83, type: 3}
+      propertyPath: m_WrapMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7205439731623040832, guid: 6c6713bb800499e4296a4bd0f7903b83, type: 3}
+      propertyPath: m_InitialState
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8705473948770809112, guid: 6c6713bb800499e4296a4bd0f7903b83, type: 3}
       propertyPath: m_Name
       value: Hit Detection

@@ -18,15 +18,15 @@ MonoBehaviour:
   - Environment
   - Hazards
   - Blocker
-  - PlayerBody
-  - EnemyBody
-  - PlayerHitbox
-  - PlayerHurtbox
-  - EnemyHitbox
-  - EnemyHurtbox
-  - Conduit
+  - BodyPlayer
+  - BodyEnemy
+  - HitboxPlayer
+  - HitboxEnemy
+  - HurtboxPlayer
+  - HurtboxEnemy
   - Interactable
   - Sensor
+  - 
   - 
   - 
   - 

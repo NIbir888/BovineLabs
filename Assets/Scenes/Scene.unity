@@ -523,7 +523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &776615289
 Transform:
   m_ObjectHideFlags: 0
@@ -666,14 +666,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a335734b1572644a6a5d09d87adc65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Scenes::Unity.Scenes.SubScene
-  _SceneAsset: {fileID: 102900000, guid: af95b00d4a0d9464ca7b61530afe01f1, type: 3}
+  _SceneAsset: {fileID: 102900000, guid: bc364f118ddd20e418e48d3a06dbed80, type: 3}
   AutoLoadScene: 1
   _SceneGUID:
     Value:
-      x: 3490404858
-      y: 1179242660
-      z: 890681260
-      w: 521203616
+      x: 301229003
+      y: 1308810712
+      z: 2748862081
+      w: 148815200
 --- !u!1 &1342076471
 GameObject:
   m_ObjectHideFlags: 0
