@@ -91,9 +91,9 @@
       "hash": "5ab7d83ef00e052a247a88fca801d9538d513524"
     },
     "com.bovinelabs.template": {
-      "version": "file:com.bovinelabs.template",
+      "version": "https://github.com/NIbir888/BovineLabs.Template.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.entities": "6.6.0",
         "com.unity.physics": "6.6.0",
@@ -101,7 +101,8 @@
         "com.bovinelabs.essence": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.essence",
         "com.bovinelabs.reaction": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.reaction",
         "com.bovinelabs.timeline.entitylinks": "https://github.com/IAFahim/BovineLabs.Timeline.EntityLinks.git"
-      }
+      },
+      "hash": "1ee0d415731469ae1e229ea2f697ea95ead92a43"
     },
     "com.bovinelabs.timeline": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.timeline",
