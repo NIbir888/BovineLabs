@@ -224,7 +224,7 @@ Camera:
     height: 0.9328537
   near clip plane: 0.1
   far clip plane: 1000
-  field of view: 26.2
+  field of view: 29.8
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -250,8 +250,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146208193}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3300828, y: 0.45639724, z: -0.19362842, w: 0.8032777}
-  m_LocalPosition: {x: -11.340661, y: 13.038405, z: -4.0175424}
+  m_LocalRotation: {x: 0.33141363, y: 0.46193975, z: -0.19134176, w: 0.8001032}
+  m_LocalPosition: {x: -11.291589, y: 14.268406, z: -6.519202}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -666,14 +666,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a335734b1572644a6a5d09d87adc65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Scenes::Unity.Scenes.SubScene
-  _SceneAsset: {fileID: 102900000, guid: d01da17ea575f6244967279c39ca67c6, type: 3}
+  _SceneAsset: {fileID: 102900000, guid: dd7f4873feae3cd4c869b55bd19224a2, type: 3}
   AutoLoadScene: 1
   _SceneGUID:
     Value:
-      x: 3877294349
-      y: 1114593114
-      z: 3379721876
-      w: 1819716755
+      x: 931461085
+      y: 1304685295
+      z: 3042678412
+      w: 708978973
 --- !u!1 &1342076471
 GameObject:
   m_ObjectHideFlags: 0
