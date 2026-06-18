@@ -127,10 +127,10 @@ MonoBehaviour:
   m_Name: PhysicsTriggerForceClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerForceClip
   triggerState: 1
-  forceType: 1
+  forceType: 2
   mode: 1
-  magnitude: -250
-  direction: {x: 0, y: 0, z: 1}
+  magnitude: -25
+  direction: {x: 0, y: 0, z: 0}
   originMode: 0
   falloffCurve: 0
   falloffStartRadius: 0
