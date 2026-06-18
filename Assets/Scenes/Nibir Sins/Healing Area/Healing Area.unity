@@ -151,7 +151,7 @@ MonoBehaviour:
   settings:
   - {fileID: 11400000, guid: 1288f2da12d38259bba0a73616fcefcb, type: 2}
   - {fileID: 11400000, guid: 2c3495472aaa942d7a34e8bcef68cab4, type: 2}
-  - {fileID: 11400000, guid: e6898206f1287f38885779114eda45ac, type: 2}
+  - {fileID: 11400000, guid: 166abc88281e64549b11bec4499d0a01, type: 2}
   - {fileID: 11400000, guid: a8e24ca3c19be0ae383aed9ca347efbd, type: 2}
   - {fileID: 11400000, guid: 89916598b6c3ca6e5b1109a31001f189, type: 2}
   - {fileID: 11400000, guid: eaeddac758594e621ac1c1bde8130dce, type: 2}
@@ -363,7 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb54ea4f67dc17342bcd49954c53502d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Physics.Hybrid::Unity.Physics.Authoring.PhysicsDebugDisplayAuthoring
-  DrawColliders: 0
+  DrawColliders: 1
   DrawColliderEdges: 0
   DrawColliderAabbs: 0
   DrawMassProperties: 0
@@ -962,7 +962,6 @@ GameObject:
   - component: {fileID: 1948374334}
   - component: {fileID: 1948374333}
   - component: {fileID: 1948374337}
-  - component: {fileID: 1948374336}
   - component: {fileID: 1948374335}
   m_Layer: 0
   m_Name: Physics Trigger
@@ -1037,7 +1036,7 @@ MonoBehaviour:
     m_Template: {fileID: 0}
     m_CollisionResponse:
       m_Override: 0
-      m_Value: 0
+      m_Value: 3
     m_DetailedStaticMeshCollision:
       m_Override: 0
       m_Value:
@@ -1160,7 +1159,7 @@ MonoBehaviour:
     x: 0
     y: 0
     z: 0
-  m_GravityFactor: 1
+  m_GravityFactor: 0
   m_OverrideDefaultMassDistribution: 0
   m_CenterOfMass:
     x: 0
@@ -1199,18 +1198,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374892803943bc04cb79933b2eeba006, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.PhysicsStates.StatefulTriggerEventAuthoring
---- !u!114 &1948374336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948374331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c238a9d99814c3fb11798728c074d1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Timeline.Core.Authoring::BovineLabs.Timeline.Core.Authoring.TimelineReferenceAuthoring
 --- !u!320 &1948374337
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -1220,13 +1207,15 @@ PlayableDirector:
   m_GameObject: {fileID: 1948374331}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 904b2bfb5217a4e4297c778f80dade19, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 0404a573ff6eb994bb10d58f8f878e33, type: 2}
   m_InitialState: 1
-  m_WrapMode: 2
+  m_WrapMode: 1
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 3942163481558454261, guid: 904b2bfb5217a4e4297c778f80dade19, type: 2}
+    value: {fileID: 1948374335}
+  - key: {fileID: 6881504544946686641, guid: 0404a573ff6eb994bb10d58f8f878e33, type: 2}
     value: {fileID: 1948374335}
   m_ExposedReferences:
     m_References: []
@@ -1256,13 +1245,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121020916}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4.98}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.17, z: 4.98}
   m_LocalScale: {x: 2.7595, y: 0.12308, z: 2.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1948374332}
-  m_Father: {fileID: 5022740168575704313}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2121020918
 MeshRenderer:
@@ -1369,9 +1358,13 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3997087507869455515, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: 'Links.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1373506576}
     - target: {fileID: 5271235804501197941, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.8
+      value: 2.65
       objectReference: {fileID: 0}
     - target: {fileID: 7509363276189378629, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1379,7 +1372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7509363276189378629, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.73
+      value: 1.23
       objectReference: {fileID: 0}
     - target: {fileID: 7509363276189378629, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1423,10 +1416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7509363276189378629, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2121020917}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 687338781808046558, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       insertIndex: -1
@@ -1435,11 +1425,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1373506576}
   m_SourcePrefab: {fileID: 100100000, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
---- !u!4 &5022740168575704313 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7509363276189378629, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
-  m_PrefabInstance: {fileID: 5022740168575704311}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5022740168575704316 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3997087507869455515, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
@@ -1462,4 +1447,5 @@ SceneRoots:
   - {fileID: 1775309409}
   - {fileID: 1642187691}
   - {fileID: 1715107374}
+  - {fileID: 2121020917}
   - {fileID: 5022740168575704311}

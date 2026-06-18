@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6030fde919e1488ea7e5855f39cf1cd3, type: 3}
-  m_Name: Suck in
+  m_Name: Healing Effect
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinition
-  id: 16
+  id: 17
   friendlyName: 
   description: 
   categories: 0
-  prefab: {fileID: 7731032485176023603, guid: 255106e6ba332124b8241717a86ee87b, type: 3}
+  prefab: {fileID: 538776477391117000, guid: d51c43045bab19e4585b647a6de5fd15, type: 3}

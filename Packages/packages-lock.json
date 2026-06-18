@@ -7,7 +7,7 @@
       "dependencies": {
         "com.bovinelabs.core": "1.6.1"
       },
-      "hash": "3fe2c2168b3a883b5b9862a5c0a24990ab8eb971"
+      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
     },
     "com.bovinelabs.audio": {
       "version": "https://github.com/IAFahim/com.bovinelabs.audio.git",
@@ -21,7 +21,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "3fe2c2168b3a883b5b9862a5c0a24990ab8eb971"
+      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
     },
     "com.bovinelabs.core": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.core",
@@ -30,7 +30,7 @@
       "dependencies": {
         "com.unity.entities": "1.4.5"
       },
-      "hash": "3fe2c2168b3a883b5b9862a5c0a24990ab8eb971"
+      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
     },
     "com.bovinelabs.essence": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.essence",
@@ -40,7 +40,7 @@
         "com.bovinelabs.core": "1.4.4",
         "com.bovinelabs.reaction": "0.5.0"
       },
-      "hash": "3fe2c2168b3a883b5b9862a5c0a24990ab8eb971"
+      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
     },
     "com.bovinelabs.grid": {
       "version": "https://github.com/IAFahim/com.bovinelabs.grid.git",
@@ -57,7 +57,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "6866192a1df4de452065aa5c5a59e0b87cf36850"
+      "hash": "cc078ff1755ca4edec86d02e4f81073a552ca256"
     },
     "com.bovinelabs.quill": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.quill",
@@ -67,7 +67,7 @@
         "com.bovinelabs.core": "1.6.0",
         "com.unity.entities.graphics": "1.4.15"
       },
-      "hash": "3fe2c2168b3a883b5b9862a5c0a24990ab8eb971"
+      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
     },
     "com.bovinelabs.reaction": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.reaction",
@@ -76,7 +76,7 @@
       "dependencies": {
         "com.bovinelabs.core": "1.4.6"
       },
-      "hash": "3fe2c2168b3a883b5b9862a5c0a24990ab8eb971"
+      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
     },
     "com.bovinelabs.reaction.addon": {
       "version": "https://github.com/IAFahim/com.bovinelabs.reaction.addon.git",
@@ -88,7 +88,7 @@
         "com.bovinelabs.essence": "2.0.0",
         "com.unity.test-framework": "1.6.0"
       },
-      "hash": "5ab7d83ef00e052a247a88fca801d9538d513524"
+      "hash": "8e5237fa8fd1c9359e2fe606781430971887b4eb"
     },
     "com.bovinelabs.template": {
       "version": "https://github.com/NIbir888/BovineLabs.Template.git",
@@ -112,7 +112,7 @@
         "com.bovinelabs.core": "1.6.0",
         "com.unity.timeline": "1.8.11"
       },
-      "hash": "3fe2c2168b3a883b5b9862a5c0a24990ab8eb971"
+      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
     },
     "com.bovinelabs.timeline.animation": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Animation.git",
@@ -126,7 +126,7 @@
         "com.bovinelabs.timeline.core": "1.0.0",
         "com.rukhanka.animation": "1.0.0"
       },
-      "hash": "d667651b9e495d5a48ea63f0ca7620463aa8982b"
+      "hash": "c581983b388c32fd76959c7436c9a0ce8bf6a501"
     },
     "com.bovinelabs.timeline.core": {
       "version": "https://github.com/IAFahim/com.bovinelabs.timeline.core.git",
@@ -138,7 +138,7 @@
         "com.unity.burst": "1.8.11",
         "com.unity.mathematics": "1.3.2"
       },
-      "hash": "032841b56bc13e1ab0f1eb3de1db3744c00ab193"
+      "hash": "a91fa3eab653eb84116b2b9fc21755d7a83ab058"
     },
     "com.bovinelabs.timeline.distance": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Distance.git",
@@ -147,7 +147,7 @@
       "dependencies": {
         "com.unity.test-framework": "1.6.0"
       },
-      "hash": "09b1e3b8baf074568930922a60905e84a7f84caa"
+      "hash": "a6c8ae4b68292ee29aebd1cfc4a8503155f72472"
     },
     "com.bovinelabs.timeline.entitylinks": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.EntityLinks.git",
@@ -156,7 +156,7 @@
       "dependencies": {
         "com.unity.test-framework": "1.6.0"
       },
-      "hash": "b4ec828b58e95e2dfa77da084e6bc8be57f54172"
+      "hash": "17809f2c7c6ca30722ca6fc8084d3c9cb5305cdb"
     },
     "com.bovinelabs.timeline.essence": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Essence.git",
@@ -165,7 +165,7 @@
       "dependencies": {
         "com.unity.test-framework": "1.6.0"
       },
-      "hash": "8ffdacab8e4e3f9a785312c17125211ee7162b5e"
+      "hash": "61235dbfb23acf902ca88b4e22ce257472e8f40a"
     },
     "com.bovinelabs.timeline.grid.influence": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Grid.Influence.git",
@@ -181,7 +181,7 @@
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
       },
-      "hash": "3162de401f16a4e23fd336b3d830b1c7bbaa915d"
+      "hash": "e8d599e44a3579cbb850b2fc753a66aae9cf37f6"
     },
     "com.bovinelabs.timeline.group-tool": {
       "version": "https://github.com/IAFahim/com.bovinelabs.timeline.group-tool.git",
@@ -190,7 +190,7 @@
       "dependencies": {
         "com.unity.timeline": "1.7.6"
       },
-      "hash": "c326a49f87956b6e42017946507f2df7a2518a09"
+      "hash": "06f5474ca2f3937607926fd37426f7d9c74a06e1"
     },
     "com.bovinelabs.timeline.physics": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Physics.git",
@@ -209,7 +209,7 @@
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
       },
-      "hash": "9ca6d5db2ea705ae7339f7880a534b1aa79881cc"
+      "hash": "c6c2a7624c5086724c7b5d64cca0538b5d452aa5"
     },
     "com.bovinelabs.timeline.playerinputs": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.PlayerInputs.git",
@@ -225,7 +225,7 @@
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
       },
-      "hash": "b0c1ded1fadd6f40343e97737406580bf3415ca0"
+      "hash": "cca22a0c278fb695dc41ba1c5bb3a56c5e400c6e"
     },
     "com.bovinelabs.timeline.time": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Time.git",
@@ -243,7 +243,7 @@
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
       },
-      "hash": "e9f8002ab049bc25a42b746af91cd7ca537320b5"
+      "hash": "ac419e52cf925b98a959e68376e01bc150aaf49c"
     },
     "com.bovinelabs.timeline.ui": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.UI.git",
@@ -263,7 +263,7 @@
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
       },
-      "hash": "b34b43deae517bde609b9e16fd38396ccf05d674"
+      "hash": "854ecc176154d0c664b1db01f383b8eb3f47ef8e"
     },
     "com.bovinelabs.vibe": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.vibe",
@@ -273,7 +273,7 @@
         "com.bovinelabs.core": "1.6.1",
         "com.bovinelabs.timeline": "1.0.2"
       },
-      "hash": "3fe2c2168b3a883b5b9862a5c0a24990ab8eb971"
+      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
     },
     "com.iafahim.mk": {
       "version": "https://github.com/IAFahim/MK.git",
@@ -289,7 +289,7 @@
       "dependencies": {
         "com.unity.entities.graphics": "1.4.16"
       },
-      "hash": "8e537fb56271d2d9331614b75f2d864d78950e35"
+      "hash": "de4acec8d8d040e12b9fc610f924228a6e07ce64"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
