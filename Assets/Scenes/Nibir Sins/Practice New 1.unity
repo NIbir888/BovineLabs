@@ -486,21 +486,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -88.8
       objectReference: {fileID: 0}
-    - target: {fileID: 5891537907489109336, guid: f2c3e9ee9217a1e468d4658a3a45b33a, type: 3}
-      propertyPath: m_SceneBindings.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5891537907489109336, guid: f2c3e9ee9217a1e468d4658a3a45b33a, type: 3}
-      propertyPath: m_SceneBindings.Array.data[2].key
-      value: 
-      objectReference: {fileID: -758596552833865220, guid: 0404a573ff6eb994bb10d58f8f878e33, type: 2}
     - target: {fileID: 7067948345983556062, guid: f2c3e9ee9217a1e468d4658a3a45b33a, type: 3}
       propertyPath: m_Name
       value: Knockback Weapon(Fixed) 1
       objectReference: {fileID: 0}
     - target: {fileID: 7067948345983556062, guid: f2c3e9ee9217a1e468d4658a3a45b33a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7496821823536592354, guid: f2c3e9ee9217a1e468d4658a3a45b33a, type: 3}
       propertyPath: m_Name
@@ -1753,18 +1745,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5891537907489109336, guid: f2c3e9ee9217a1e468d4658a3a45b33a, type: 3}
-      propertyPath: m_SceneBindings.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5891537907489109336, guid: f2c3e9ee9217a1e468d4658a3a45b33a, type: 3}
-      propertyPath: m_SceneBindings.Array.data[2].key
-      value: 
-      objectReference: {fileID: -758596552833865220, guid: 0404a573ff6eb994bb10d58f8f878e33, type: 2}
-    - target: {fileID: 5891537907489109336, guid: f2c3e9ee9217a1e468d4658a3a45b33a, type: 3}
-      propertyPath: m_SceneBindings.Array.data[2].value
-      value: 
-      objectReference: {fileID: 1338821274}
     - target: {fileID: 7067948345983556062, guid: f2c3e9ee9217a1e468d4658a3a45b33a, type: 3}
       propertyPath: m_Name
       value: 'Knockback Weapon(Sphere) '
@@ -1880,12 +1860,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5271235804501197941, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 5271235804501197941, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.74
+      value: 2.65
       objectReference: {fileID: 0}
     - target: {fileID: 7509363276189378629, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2060,17 +2036,6 @@ MonoBehaviour:
   Custom: {fileID: 0}
   Initialize:
     Target: 3
---- !u!114 &1338821274 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 397673290548419487, guid: f2c3e9ee9217a1e468d4658a3a45b33a, type: 3}
-  m_PrefabInstance: {fileID: 1073814632}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338821270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 374892803943bc04cb79933b2eeba006, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.PhysicsStates.StatefulTriggerEventAuthoring
 --- !u!1 &1357626973
 GameObject:
   m_ObjectHideFlags: 0
@@ -2352,7 +2317,7 @@ Transform:
   m_GameObject: {fileID: 1445780017}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.31, y: 1, z: -1.75}
+  m_LocalPosition: {x: -1.85, y: 1, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
