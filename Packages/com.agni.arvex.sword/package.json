@@ -1,0 +1,23 @@
+{
+  "name": "com.agni.arvex.sword",
+  "version": "1.0.0",
+  "displayName": "Arvex Sword",
+  "description": "Arvex sword art package containing FBX meshes, URP material, and textures for Unity designers.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Agni Game Development"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "17.6.0"
+  },
+  "keywords": [
+    "unity",
+    "art",
+    "arvex",
+    "sword",
+    "fbx",
+    "urp"
+  ],
+  "_fingerprint": "4e23add5fa1468f5c1182ee0f96124e1cbe77515"
+}

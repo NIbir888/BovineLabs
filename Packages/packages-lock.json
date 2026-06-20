@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.agni.arvex.sword": {
+      "version": "file:com.agni.arvex.sword",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "17.6.0"
+      }
+    },
     "com.bovinelabs.anchor": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.anchor",
       "depth": 0,
