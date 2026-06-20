@@ -1143,7 +1143,7 @@ MonoBehaviour:
   - Director: {fileID: 167664738}
     InitialTime: 0
     DisableTimelineOnDeactivate: 0
-    ResetWhenActive: 0
+    ResetWhenActive: 1
     Bindings: []
 --- !u!114 &1037071102
 MonoBehaviour:
@@ -3983,7 +3983,7 @@ MonoBehaviour:
   - Director: {fileID: 875963409}
     InitialTime: 0
     DisableTimelineOnDeactivate: 0
-    ResetWhenActive: 0
+    ResetWhenActive: 1
     Bindings: []
 --- !u!114 &2125699080
 MonoBehaviour:
