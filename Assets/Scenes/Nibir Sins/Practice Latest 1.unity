@@ -3477,7 +3477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf771a7709984684bf2bb02e389180ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Timeline.Animation.Authoring::BovineLabs.Timeline.Animation.AuthoringWe.TimelineAnimationStateAuthoring
-  fallbackAnimationClip: {fileID: 0}
+  fallbackAnimationClip: {fileID: 1827226128182048838, guid: 525190fbc1ce58f49bc2d8df8f6f0207, type: 3}
   fallbackPlaybackMode: 0
   blendInDuration: 0.25
   blendOutDuration: 0.25
@@ -3677,7 +3677,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1837210996
 Transform:
   m_ObjectHideFlags: 0
