@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.ReactionSettings
   conditionEvents:
   - {fileID: 11400000, guid: 28ecb508887efc045b8b0f67a46564ea, type: 2}
+  - {fileID: 11400000, guid: 0f72803bfdbe9eb418ce94da4cb5a298, type: 2}
   - {fileID: 11400000, guid: e50beb6fe663ec748bbf1d5c95cc9b6c, type: 2}
+  - {fileID: 11400000, guid: dccbcc44312e9144298416ac09b4608e, type: 2}
   - {fileID: 11400000, guid: 9ffb3f5ee7e884c44b952dae895d2c9b, type: 2}
   - {fileID: 11400000, guid: 3abba647a17b4a8fbf794cafa2d8135d, type: 2}
   - {fileID: 11400000, guid: 2bf0f6b7d8364fe2ad9ef52d5efd255b, type: 2}
