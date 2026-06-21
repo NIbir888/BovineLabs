@@ -99,6 +99,10 @@ MonoBehaviour:
   eulerAnglesOffset: {x: 0, y: 0, z: 0}
   avatarMask: {fileID: 0}
   applyAvatarMask: 1
+  ExitIdleClip: {fileID: 0}
+  BlendInDuration: 0.25
+  BlendOutDuration: 0.25
+  FallbackPlaybackMode: 0
 --- !u!114 &-8590466060416407898
 MonoBehaviour:
   m_ObjectHideFlags: 1
