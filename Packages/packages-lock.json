@@ -8,6 +8,12 @@
         "com.unity.render-pipelines.universal": "17.6.0"
       }
     },
+    "com.agni.grruzamdualblade.animation": {
+      "version": "file:com.agni.grruzamdualblade.animation",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.agni.platformanimation": {
       "version": "https://github.com/SadmanShafin/platform-animation-unity-package.git",
       "depth": 0,
