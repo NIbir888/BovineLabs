@@ -358,7 +358,7 @@ MonoBehaviour:
   m_Name: PhysicsDragClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsDragClip
   linearDrag: 10
-  angularDrag: 10
+  angularDrag: 100
   strengthStat: {fileID: 0}
   readStatFrom: 4
   readStatLink: {fileID: 0}
@@ -388,7 +388,7 @@ MonoBehaviour:
       x: 2
       y: 2
       z: 2
-    MaxOutput: 15
+    MaxOutput: 25
   trackingTarget: 6
   targetMode: 1
   targetRotationEuler: {x: 0, y: 0, z: 0}
