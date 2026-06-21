@@ -190,8 +190,8 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Movement Start
-      Condition: {fileID: 11400000, guid: dccbcc44312e9144298416ac09b4608e, type: 2}
+    - Name: Movement End
+      Condition: {fileID: 11400000, guid: 0f72803bfdbe9eb418ce94da4cb5a298, type: 2}
       Target: 1
       Operation: 1
       ComparisonMode: 0
