@@ -1,0 +1,45 @@
+{
+  "name": "BovineLabs.Timeline.Physics.Tests",
+  "rootNamespace": "",
+  "references": [
+    "BovineLabs.Core",
+    "BovineLabs.Core.Extensions",
+    "BovineLabs.Reaction",
+    "BovineLabs.Reaction.Data",
+    "BovineLabs.Testing",
+    "BovineLabs.Timeline.Physics",
+    "BovineLabs.Timeline.Physics.Data",
+    "BovineLabs.Timeline.Physics.Authoring",
+    "BovineLabs.Timeline.EntityLinks.Data",
+    "BovineLabs.Timeline.Data",
+    "BovineLabs.Timeline.Core",
+    "BovineLabs.Timeline.Core.Debug",
+    "BovineLabs.Essence.Data",
+    "BovineLabs.Timeline.Essence.Debug",
+    "Unity.Entities.Hybrid",
+    "BovineLabs.Quill",
+    "Unity.Burst",
+    "Unity.Collections",
+    "Unity.Entities",
+    "Unity.Mathematics",
+    "Unity.Physics",
+    "Unity.Transforms",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
