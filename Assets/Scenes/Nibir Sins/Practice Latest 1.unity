@@ -5065,6 +5065,22 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.19695342
       objectReference: {fileID: 0}
+    - target: {fileID: 4654109382615740483, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: Intrinsics.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654109382615740483, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: Intrinsics.Array.data[1].Amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654109382615740483, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: Intrinsics.Array.data[1].Target
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654109382615740483, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: Intrinsics.Array.data[1].Intrinsic
+      value: 
+      objectReference: {fileID: 11400000, guid: a04b0c1964480d84aa9f6ee97c11147a, type: 2}
     - target: {fileID: 4790474943923756792, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalRotation.w
       value: -0.9435737
