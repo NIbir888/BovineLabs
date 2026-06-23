@@ -34,6 +34,7 @@ Transform:
   - {fileID: 5859753803138211114}
   - {fileID: 7479612244804796620}
   - {fileID: 5031866516798275010}
+  - {fileID: 3867090972712371265}
   m_Father: {fileID: 7509363276189378629}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &687338781808046558
@@ -336,6 +337,59 @@ MonoBehaviour:
   Root: {fileID: 3997087507869455515}
   Schemas:
   - {fileID: 11400000, guid: c868fab23b9ed69fcafbf52732dcf4cf, type: 2}
+--- !u!1 &700710749023980700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4189817805391757214}
+  - component: {fileID: 2982916271249645719}
+  m_Layer: 0
+  m_Name: Quick Attack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4189817805391757214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700710749023980700}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5460026118820928624}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &2982916271249645719
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700710749023980700}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: c9bbe1f3b1b25324f82e0d77c0e297b2, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -8420483313563158335, guid: c9bbe1f3b1b25324f82e0d77c0e297b2, type: 2}
+    value: {fileID: 6928436422038543207}
+  - key: {fileID: 6614101033813527785, guid: c9bbe1f3b1b25324f82e0d77c0e297b2, type: 2}
+    value: {fileID: 4630835840122612693}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &958500868161871679
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +531,10 @@ PlayableDirector:
     value: {fileID: 8772386852086223861}
   - key: {fileID: 91562700373227654, guid: 6672b18d8ba64b94db414a5eec5acf21, type: 2}
     value: {fileID: 6928436422038543207}
+  - key: {fileID: -8987702777663962447, guid: 6672b18d8ba64b94db414a5eec5acf21, type: 2}
+    value: {fileID: 4630835840122612693}
+  - key: {fileID: 6715585086190178220, guid: 6672b18d8ba64b94db414a5eec5acf21, type: 2}
+    value: {fileID: 4630835840122612693}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1847893914436020998
@@ -518,6 +576,7 @@ Transform:
   - {fileID: 706244649267605782}
   - {fileID: 2749213671336653907}
   - {fileID: 8751852053375841486}
+  - {fileID: 5460026118820928624}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3997087507869455515
@@ -633,6 +692,7 @@ GameObject:
   - component: {fileID: 7853424438790243646}
   - component: {fileID: 8467582525825072289}
   - component: {fileID: 2725607065555968926}
+  - component: {fileID: 4630835840122612693}
   m_Layer: 0
   m_Name: Essence
   m_TagString: Untagged
@@ -649,7 +709,7 @@ Transform:
   m_GameObject: {fileID: 2261186124370040122}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2.65}
+  m_LocalPosition: {x: -0.06, y: 0, z: 2.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -680,6 +740,14 @@ MonoBehaviour:
     Value: 0
   - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
     Value: 100
+  - Intrinsic: {fileID: 11400000, guid: af1ecc1e79ae91041a083747b2e87e37, type: 2}
+    Value: 0
+  - Intrinsic: {fileID: 11400000, guid: be774f3d464062a43923068ec5de00a1, type: 2}
+    Value: 1
+  - Intrinsic: {fileID: 11400000, guid: b6750ac22773cee4cb3098799a056c03, type: 2}
+    Value: 1
+  - Intrinsic: {fileID: 11400000, guid: a04b0c1964480d84aa9f6ee97c11147a, type: 2}
+    Value: 1
   IntrinsicDefaultGroups: []
   Initialize:
     CopyFrom: 3
@@ -748,6 +816,303 @@ MonoBehaviour:
   Root: {fileID: 3997087507869455515}
   Schemas:
   - {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+--- !u!114 &4630835840122612693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2261186124370040122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
+  Owner: {fileID: 0}
+  Source: {fileID: 0}
+  Target: {fileID: 2261186124370040122}
+  Custom: {fileID: 0}
+  Initialize:
+    Target: 1
+--- !u!1 &2326771705965580489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7468506239154703084}
+  - component: {fileID: 4140601379381908667}
+  - component: {fileID: 779871597828951818}
+  - component: {fileID: 2055678349233216374}
+  - component: {fileID: 3279849961721671180}
+  m_Layer: 0
+  m_Name: Reaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7468506239154703084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2326771705965580489}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5460026118820928624}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4140601379381908667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2326771705965580489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
+--- !u!114 &779871597828951818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2326771705965580489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
+  Owner: {fileID: 0}
+  Source: {fileID: 0}
+  Target: {fileID: 2261186124370040122}
+  Custom: {fileID: 0}
+  Initialize:
+    Target: 1
+--- !u!114 &2055678349233216374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2326771705965580489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d5a07a3cf34c9da0f7aa29435adad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.ReactionAuthoring
+  Active:
+    trigger: 0
+    cooldown: 0
+    cooldownAfterDuration: 0
+    duration: 0
+    cancellable: 0
+  Conditions:
+    conditions:
+    - Name: On Attack
+      Condition: {fileID: 11400000, guid: ba054a0e675c8054c9861386223cd0af, type: 2}
+      Target: 1
+      Operation: 1
+      ComparisonMode: 0
+      Value: 1
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
+    - Name: Can Attack
+      Condition: {fileID: 11400000, guid: b6750ac22773cee4cb3098799a056c03, type: 2}
+      Target: 1
+      Operation: 1
+      ComparisonMode: 0
+      Value: 1
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
+    conditionLogic:
+      expression: 
+    chanceToTrigger: 1
+    doNotReset: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+--- !u!114 &3279849961721671180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2326771705965580489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8dcbda6791f5f841a9bee881a1df3ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Timeline.Authoring::BovineLabs.Reaction.Timeline.Authoring.ActionTimelineAuthoring
+  Timelines:
+  - Director: {fileID: 2982916271249645719}
+    InitialTime: 0
+    DisableTimelineOnDeactivate: 0
+    ResetWhenActive: 0
+    Bindings: []
+--- !u!1 &2362186889072575226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3867090972712371265}
+  - component: {fileID: 6912511286125540145}
+  - component: {fileID: 7203618892980216581}
+  - component: {fileID: 5999759808337293603}
+  - component: {fileID: 5903414243938507273}
+  m_Layer: 0
+  m_Name: Movement Deactivate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3867090972712371265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2362186889072575226}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5363037454100042976}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6912511286125540145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2362186889072575226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
+--- !u!114 &7203618892980216581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2362186889072575226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
+  Owner: {fileID: 0}
+  Source: {fileID: 0}
+  Target: {fileID: 2261186124370040122}
+  Custom: {fileID: 0}
+  Initialize:
+    Target: 1
+--- !u!114 &5999759808337293603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2362186889072575226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d5a07a3cf34c9da0f7aa29435adad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.ReactionAuthoring
+  Active:
+    trigger: 0
+    cooldown: 0
+    cooldownAfterDuration: 0
+    duration: 0
+    cancellable: 0
+  Conditions:
+    conditions:
+    - Name: Movement End
+      Condition: {fileID: 11400000, guid: 0f72803bfdbe9eb418ce94da4cb5a298, type: 2}
+      Target: 1
+      Operation: 1
+      ComparisonMode: 0
+      Value: 1
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
+    conditionLogic:
+      expression: 
+    chanceToTrigger: 1
+    doNotReset: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+--- !u!114 &5903414243938507273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2362186889072575226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
+  Intrinsics:
+  - Intrinsic: {fileID: 11400000, guid: abb48ab04951f384e9d1c8ba03d94b4b, type: 2}
+    Amount: -1
+    Target: 1
 --- !u!1 &2968255221190890029
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,7 +1127,7 @@ GameObject:
   - component: {fileID: 7003591788114555631}
   - component: {fileID: 4654109382615740483}
   m_Layer: 0
-  m_Name: Movement Deactivate
+  m_Name: Movement Activate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -833,8 +1198,8 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Movement End
-      Condition: {fileID: 11400000, guid: 0f72803bfdbe9eb418ce94da4cb5a298, type: 2}
+    - Name: Movement Start
+      Condition: {fileID: 11400000, guid: dccbcc44312e9144298416ac09b4608e, type: 2}
       Target: 1
       Operation: 1
       ComparisonMode: 0
@@ -875,7 +1240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
   Intrinsics:
   - Intrinsic: {fileID: 11400000, guid: abb48ab04951f384e9d1c8ba03d94b4b, type: 2}
-    Amount: -1
+    Amount: 1
     Target: 1
 --- !u!1 &2984034660269723510
 GameObject:
@@ -910,6 +1275,57 @@ Transform:
   - {fileID: 8765596339202812464}
   m_Father: {fileID: 8751852053375841486}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3003034959978067139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4752867514953713920}
+  - component: {fileID: 8921186898799242209}
+  m_Layer: 0
+  m_Name: Input Listener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4752867514953713920
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3003034959978067139}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5460026118820928624}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &8921186898799242209
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3003034959978067139}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: d12a6fada3a9b0746ac7e2a11765ced2, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 1
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -5441578934516301831, guid: d12a6fada3a9b0746ac7e2a11765ced2, type: 2}
+    value: {fileID: 376014106542672443}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &3266095648201149436
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,6 +1381,8 @@ PlayableDirector:
     value: {fileID: 8772386852086223861}
   - key: {fileID: -2958254025486711169, guid: 08a7c66a7681c07498886283321d1ca7, type: 2}
     value: {fileID: 8772386852086223861}
+  - key: {fileID: 3740037599780215160, guid: 08a7c66a7681c07498886283321d1ca7, type: 2}
+    value: {fileID: 376014106542672443}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &3764153038922505975
@@ -982,7 +1400,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8765596339202812464
 Transform:
   m_ObjectHideFlags: 0
@@ -1477,8 +1895,8 @@ MonoBehaviour:
       Features: 1
       DestroyIfTargetDestroyed: 0
       CancelActive: 0
-    - Name: Movement Activator
-      Condition: {fileID: 11400000, guid: abb48ab04951f384e9d1c8ba03d94b4b, type: 2}
+    - Name: Can Dash
+      Condition: {fileID: 11400000, guid: be774f3d464062a43923068ec5de00a1, type: 2}
       Target: 1
       Operation: 1
       ComparisonMode: 0
@@ -1521,7 +1939,7 @@ MonoBehaviour:
   - Director: {fileID: 2756306268352692584}
     InitialTime: 0
     DisableTimelineOnDeactivate: 0
-    ResetWhenActive: 0
+    ResetWhenActive: 1
     Bindings: []
 --- !u!1 &6323815610693235166
 GameObject:
@@ -1535,9 +1953,9 @@ GameObject:
   - component: {fileID: 9180032904965764921}
   - component: {fileID: 500010694130783201}
   - component: {fileID: 8114588287581025880}
-  - component: {fileID: 9084548588859758647}
+  - component: {fileID: 1688370534400222617}
   m_Layer: 0
-  m_Name: Movement Active
+  m_Name: Input Activate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1608,10 +2026,10 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Movement Start
-      Condition: {fileID: 11400000, guid: dccbcc44312e9144298416ac09b4608e, type: 2}
+    - Name: Can Walk
+      Condition: {fileID: 11400000, guid: a04b0c1964480d84aa9f6ee97c11147a, type: 2}
       Target: 1
-      Operation: 1
+      Operation: 4
       ComparisonMode: 0
       Value: 1
       CustomValue:
@@ -1636,7 +2054,7 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
---- !u!114 &9084548588859758647
+--- !u!114 &1688370534400222617
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1645,13 +2063,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 6323815610693235166}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
+  m_Script: {fileID: 11500000, guid: b8dcbda6791f5f841a9bee881a1df3ac, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
-  Intrinsics:
-  - Intrinsic: {fileID: 11400000, guid: abb48ab04951f384e9d1c8ba03d94b4b, type: 2}
-    Amount: 1
-    Target: 1
+  m_EditorClassIdentifier: BovineLabs.Reaction.Timeline.Authoring::BovineLabs.Reaction.Timeline.Authoring.ActionTimelineAuthoring
+  Timelines:
+  - Director: {fileID: 8695376030354267057}
+    InitialTime: 0
+    DisableTimelineOnDeactivate: 0
+    ResetWhenActive: 0
+    Bindings: []
 --- !u!1 &6815786817683690701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,6 +2193,40 @@ Transform:
   - {fileID: 8618327334947575379}
   - {fileID: 5547651451381810696}
   m_Father: {fileID: 6971730080452315568}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7136753851953051579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5460026118820928624}
+  m_Layer: 0
+  m_Name: Combat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5460026118820928624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7136753851953051579}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4752867514953713920}
+  - {fileID: 7468506239154703084}
+  - {fileID: 4189817805391757214}
+  m_Father: {fileID: 7509363276189378629}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7503291422811955616
 GameObject:
@@ -1979,13 +2433,11 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 728ba8ac2e8bb4349a45bbc4e9e081a0, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 1
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -8110996638059242442, guid: 728ba8ac2e8bb4349a45bbc4e9e081a0, type: 2}
-    value: {fileID: 376014106542672443}
   - key: {fileID: 954105273079609732, guid: 728ba8ac2e8bb4349a45bbc4e9e081a0, type: 2}
     value: {fileID: 376014106542672443}
   m_ExposedReferences:
@@ -2075,7 +2527,7 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Movement Activator
+    - Name: Is Walking
       Condition: {fileID: 11400000, guid: abb48ab04951f384e9d1c8ba03d94b4b, type: 2}
       Target: 1
       Operation: 1
@@ -2329,7 +2781,7 @@ MonoBehaviour:
       Features: 1
       DestroyIfTargetDestroyed: 0
       CancelActive: 0
-    - Name: Movement Activator
+    - Name: Is Walking
       Condition: {fileID: 11400000, guid: abb48ab04951f384e9d1c8ba03d94b4b, type: 2}
       Target: 1
       Operation: 1
@@ -2539,15 +2991,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45e46922349eb5144bb396aa0f5d85f5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45e46922349eb5144bb396aa0f5d85f5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45e46922349eb5144bb396aa0f5d85f5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45e46922349eb5144bb396aa0f5d85f5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3740,6 +4192,10 @@ PrefabInstance:
     - target: {fileID: 5864416946313269338, guid: 45e46922349eb5144bb396aa0f5d85f5, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.00803578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 45e46922349eb5144bb396aa0f5d85f5, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6462008128571262491, guid: 45e46922349eb5144bb396aa0f5d85f5, type: 3}
       propertyPath: m_LocalPosition.x
