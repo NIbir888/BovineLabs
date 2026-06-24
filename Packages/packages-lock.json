@@ -15,6 +15,19 @@
       "dependencies": {},
       "hash": "7663d38810760569dfd41d92f9e7b021c25db7b2"
     },
+    "com.agni.brutaldoubleaxe.animset": {
+      "version": "https://github.com/SadmanShafin/brutal-double-axe-anim-set-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "391e6c492280f352de5b557580b1c3bd213c1ca9"
+    },
+    "com.agni.dualswordanimationpack": {
+      "version": "file:com.agni.dualswordanimationpack",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.agni.greatdualblade.animset": {
       "version": "file:com.agni.greatdualblade.animset",
       "depth": 0,
