@@ -3432,6 +3432,24 @@ MonoBehaviour:
         Tag07: 0
     m_SerializedVersion: 1
   m_SerializedVersion: 3
+--- !u!1 &1696456729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8755454001246965458, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+  m_PrefabInstance: {fileID: 5022740168575704311}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1696456733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696456729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce5be625b13416781e3426ee2109abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Authoring::BovineLabs.Core.Authoring.TransformAuthoring
+  TransformUsageFlags: 2
 --- !u!1 &1697546649
 GameObject:
   m_ObjectHideFlags: 0
@@ -6583,7 +6601,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8755454002818559212}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -8529,6 +8547,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.0038064425
       objectReference: {fileID: 0}
+    - target: {fileID: 3291805523982658234, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3386387533402713581, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.000017546117
@@ -9251,6 +9273,9 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2015848611}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8755454001246965458, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1696456733}
     - targetCorrespondingSourceObject: {fileID: 2117595745111046550, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 853770570}
@@ -11896,6 +11921,7 @@ GameObject:
   - component: {fileID: 6489113684105926845}
   - component: {fileID: 5157459925101588985}
   - component: {fileID: 3291805522335565956}
+  - component: {fileID: 8755454002818559213}
   m_Layer: 0
   m_Name: Hitbox
   m_TagString: Untagged
@@ -11903,6 +11929,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8755454002818559213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755454002818559212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce5be625b13416781e3426ee2109abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Authoring::BovineLabs.Core.Authoring.TransformAuthoring
+  TransformUsageFlags: 2
 --- !u!114 &8772386852577784267
 MonoBehaviour:
   m_ObjectHideFlags: 0
