@@ -129,9 +129,9 @@ MonoBehaviour:
   uniformAxes: 1
   tuning:
     Proportional:
-      x: 10
-      y: 10
-      z: 10
+      x: 100
+      y: 100
+      z: 100
     Derivative:
       x: 1
       y: 1
