@@ -8,6 +8,13 @@
         "com.unity.render-pipelines.universal": "17.6.0"
       }
     },
+    "com.agni.arvex.swordtimelinecompilation": {
+      "version": "https://github.com/SadmanShafin/sword-timeline-compilation-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7663d38810760569dfd41d92f9e7b021c25db7b2"
+    },
     "com.agni.greatdualblade.animset": {
       "version": "file:com.agni.greatdualblade.animset",
       "depth": 0,
@@ -219,9 +226,9 @@
       "hash": "6e6f482758c7c81b990187d30b9f237e1cd50d40"
     },
     "com.bovinelabs.timeline.physics": {
-      "version": "file:com.bovinelabs.timeline.physics",
+      "version": "https://github.com/IAFahim/BovineLabs.Timeline.Physics.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.burst": "1.8.11",
         "com.unity.collections": "6.5.0",
@@ -234,7 +241,8 @@
         "com.bovinelabs.timeline.entitylinks": "1.0.0",
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
-      }
+      },
+      "hash": "2c8c9505d7dac5deba89cd36c151ab52e4270e39"
     },
     "com.bovinelabs.timeline.playerinputs": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.PlayerInputs.git",
