@@ -495,7 +495,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7192687613481010375}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -587,6 +587,8 @@ PlayableDirector:
   - key: {fileID: -1641155555163937455, guid: 74465984dc2d5444e8142f627b691594, type: 2}
     value: {fileID: 2832879167856604501}
   - key: {fileID: 4931952685654550553, guid: 74465984dc2d5444e8142f627b691594, type: 2}
+    value: {fileID: 2832879167856604501}
+  - key: {fileID: -8325652046314597176, guid: 74465984dc2d5444e8142f627b691594, type: 2}
     value: {fileID: 2832879167856604501}
   m_ExposedReferences:
     m_References: []
