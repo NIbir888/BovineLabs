@@ -115,9 +115,9 @@ MonoBehaviour:
     y: 1
     z: 0
   m_PrimitiveSize:
-    x: 2
-    y: 2
-    z: 2
+    x: 8
+    y: 8
+    z: 8
   m_PrimitiveOrientation:
     Value:
       x: 0
@@ -125,15 +125,15 @@ MonoBehaviour:
       z: 0
     RotationOrder: 4
   m_Capsule:
-    Height: 2
-    Radius: 1
+    Height: 8
+    Radius: 4
     Axis: 2
   m_Cylinder:
-    Height: 2
-    Radius: 1
+    Height: 8
+    Radius: 4
     Axis: 2
   m_CylinderSideCount: 20
-  m_SphereRadius: 1
+  m_SphereRadius: 4
   m_MinimumSkinnedVertexWeight: 0.1
   m_ConvexHullGenerationParameters:
     m_SimplificationTolerance: 0.015
@@ -475,7 +475,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 6661358949396224886}
