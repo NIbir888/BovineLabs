@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3363386117689926528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7137182544725383521}
+  m_Layer: 0
+  m_Name: FIRE_ammo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7137182544725383521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3363386117689926528}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.025760537, y: 0.7508513, z: -0.043128837, w: 0.65855795}
+  m_LocalPosition: {x: -0.99623877, y: 0.61370313, z: -0.3740738}
+  m_LocalScale: {x: 1.2820511, y: 1.2820507, z: 1.2820511}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2280404694639435658}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2197435567652527822
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7137182544725383521}
+    m_Modifications:
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.151
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.252
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8612201
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.4720077
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.09056637
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.16524659
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 51.543
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -30.109
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -36.521
+      objectReference: {fileID: 0}
+    - target: {fileID: 133775368961196409, guid: bc76775cfef64e148810da25addd410d,
+        type: 3}
+      propertyPath: m_Name
+      value: FX_PF_Fire_FlamethrowerLoop
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc76775cfef64e148810da25addd410d, type: 3}
+--- !u!4 &2280404694639435658 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 133775368961196356, guid: bc76775cfef64e148810da25addd410d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2197435567652527822}
+  m_PrefabAsset: {fileID: 0}
