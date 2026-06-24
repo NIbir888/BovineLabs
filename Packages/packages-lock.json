@@ -9,11 +9,17 @@
       }
     },
     "com.agni.arvex.swordtimelinecompilation": {
-      "version": "https://github.com/SadmanShafin/sword-timeline-compilation-unity-package.git",
+      "version": "file:com.agni.arvex.swordtimelinecompilation",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.agni.brutaldoubleaxe.animset": {
+      "version": "https://github.com/SadmanShafin/brutal-double-axe-anim-set-unity-package.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "7663d38810760569dfd41d92f9e7b021c25db7b2"
+      "hash": "391e6c492280f352de5b557580b1c3bd213c1ca9"
     },
     "com.agni.greatdualblade.animset": {
       "version": "file:com.agni.greatdualblade.animset",
@@ -23,6 +29,12 @@
     },
     "com.agni.grruzamdualblade.animation": {
       "version": "file:com.agni.grruzamdualblade.animation",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.agni.lutha": {
+      "version": "file:com.agni.lutha",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
