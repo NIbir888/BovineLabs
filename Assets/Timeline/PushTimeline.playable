@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: PhysicsTriggerInstantiateClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerInstantiateClip
   objectDefinition: {fileID: 11400000, guid: 0ee0c3057d5c85a438739aec7fce29fe, type: 2}
-  triggerState: 1
+  triggerState: 2
   positionMode: 2
   positionOffset: {x: 0, y: 0, z: 0}
   positionOffsetSpace: 4
