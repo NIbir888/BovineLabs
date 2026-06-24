@@ -15,7 +15,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -118,8 +118,8 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -7849592655109568388}
-    m_Duration: 1.2666666666666666
-    m_TimeScale: 1
+    m_Duration: 1.2166666666666666
+    m_TimeScale: 0.7
     m_ParentTrack: {fileID: -8420483313563158335}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -426,30 +426,6 @@ MonoBehaviour:
   strengthStat: {fileID: 0}
   readStatFrom: 4
   readStatLink: {fileID: 0}
---- !u!114 &-4384079935050120055
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcf9ba27297f6f741833a6bf1024433f, type: 3}
-  m_Name: Scale Track
-  m_EditorClassIdentifier: BovineLabs.Vibe.Authoring::BovineLabs.Vibe.Authoring.LocalTransform.ScaleTrack
-  m_Version: 3
-  m_AnimClip: {fileID: 0}
-  m_Locked: 0
-  m_Muted: 0
-  m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
-  m_Children: []
-  m_Clips: []
-  m_Markers:
-    m_Objects: []
-  resetOnDeactivate: 1
 --- !u!114 &-3161919753155349909
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -559,6 +535,22 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
+--- !u!114 &-412627750461112987
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d19127edd59f47db6143dcf9652e1f, type: 3}
+  m_Name: TimelineEssenceEventClip(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceEventClip
+  routeTo: 1
+  routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+  conditionEvent: {fileID: 11400000, guid: cf76a8ab63ef08948b55d28bc1527bec, type: 2}
+  value: 1
 --- !u!114 &-220983085458242773
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -596,7 +588,6 @@ MonoBehaviour:
   - {fileID: 824734973700027554}
   - {fileID: -8994628121022474185}
   - {fileID: 349788593103728571}
-  - {fileID: -4384079935050120055}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -655,10 +646,217 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0.6
+    m_Start: 0.8666666666666667
+    m_ClipIn: 0
+    m_Asset: {fileID: 4375057967111054184}
+    m_Duration: 0.01666666666666672
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 349788593103728571}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineEssenceEventClip
+  - m_Version: 1
+    m_Start: 0.9
     m_ClipIn: 0
     m_Asset: {fileID: 7291210801408945933}
+    m_Duration: 0.016666666666666666
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 349788593103728571}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineEssenceEventClip
+  - m_Version: 1
+    m_Start: 0.8333333333333334
+    m_ClipIn: 0
+    m_Asset: {fileID: -412627750461112987}
     m_Duration: 0.01666666666666672
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 349788593103728571}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineEssenceEventClip
+  - m_Version: 1
+    m_Start: 0.9333333333333333
+    m_ClipIn: 0
+    m_Asset: {fileID: 2464623904414735148}
+    m_Duration: 0.016666666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 349788593103728571}
     m_EaseInDuration: 0
@@ -819,6 +1017,22 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
+--- !u!114 &2464623904414735148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d19127edd59f47db6143dcf9652e1f, type: 3}
+  m_Name: TimelineEssenceEventClip(Clone)
+  m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceEventClip
+  routeTo: 1
+  routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+  conditionEvent: {fileID: 11400000, guid: cf76a8ab63ef08948b55d28bc1527bec, type: 2}
+  value: 1
 --- !u!114 &2730153901307393277
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -912,6 +1126,22 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
+--- !u!114 &4375057967111054184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d19127edd59f47db6143dcf9652e1f, type: 3}
+  m_Name: TimelineEssenceEventClip(Clone)
+  m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceEventClip
+  routeTo: 1
+  routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+  conditionEvent: {fileID: 11400000, guid: cf76a8ab63ef08948b55d28bc1527bec, type: 2}
+  value: 1
 --- !u!114 &7239240501157825032
 MonoBehaviour:
   m_ObjectHideFlags: 1
