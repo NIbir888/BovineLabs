@@ -1,5 +1,30 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9223167326293368365
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fe44c7185fd74120b9c5ea101d9fa1c, type: 3}
+  m_Name: PhysicsTriggerInstantiateClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerInstantiateClip
+  objectDefinition: {fileID: 11400000, guid: 2164007c29424f04f8ab45f15b51af65, type: 2}
+  triggerState: 1
+  positionMode: 2
+  positionOffset: {x: 0, y: 0, z: 0}
+  positionOffsetSpace: 4
+  rotationMode: 2
+  rotationOffset: {x: 0, y: 0, z: 0}
+  assignParent: 0
+  assignParentLink: {fileID: 0}
+  targetLinkOverride: {fileID: 11400000, guid: e1f8d620c4617464dbd3a1344ff0b21b, type: 2}
+  ignoreTarget: 0
+  requireLinks: []
+  hitMode: 0
 --- !u!114 &-4560876440930095586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -24,7 +49,7 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 7088152174919425151}
+    m_Asset: {fileID: -9223167326293368365}
     m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4560876440930095586}
@@ -89,7 +114,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: PhysicsTriggerInstantiateClip
+    m_DisplayName: Parry Counter Effect (in)
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
@@ -114,28 +139,3 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &7088152174919425151
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fe44c7185fd74120b9c5ea101d9fa1c, type: 3}
-  m_Name: PhysicsTriggerInstantiateClip
-  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerInstantiateClip
-  objectDefinition: {fileID: 11400000, guid: aaf559c483ca2274cb7e5532ab47a479, type: 2}
-  triggerState: 1
-  positionMode: 2
-  positionOffset: {x: 0, y: 0, z: 0}
-  positionOffsetSpace: 4
-  rotationMode: 2
-  rotationOffset: {x: 0, y: 0, z: 0}
-  assignParent: 0
-  assignParentLink: {fileID: 0}
-  targetLinkOverride: {fileID: 0}
-  ignoreTarget: 2
-  requireLinks: []
-  hitMode: 0

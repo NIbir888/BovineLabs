@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8478831456747079483
+--- !u!1 &5366294505734718189
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,28 +8,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5285719724765126024}
-  - component: {fileID: 1372849432880358028}
-  - component: {fileID: 295062234610434652}
-  - component: {fileID: 8661026744277463828}
-  - component: {fileID: -7618923510942285651}
-  - component: {fileID: 8431276272973033143}
-  - component: {fileID: -8597671451917162725}
-  - component: {fileID: -4139425588534840409}
+  - component: {fileID: 7725803371535331155}
+  - component: {fileID: 3555155487360793209}
+  - component: {fileID: 4468204312344115906}
+  - component: {fileID: -2477807421374976311}
+  - component: {fileID: 1595505485001712834}
+  - component: {fileID: 114300184983969071}
+  - component: {fileID: 5044900213885681733}
+  - component: {fileID: 6521260179400540970}
   m_Layer: 0
-  m_Name: Parry Counter Effect
+  m_Name: Parry Counter Effect (In)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5285719724765126024
+--- !u!4 &7725803371535331155
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8478831456747079483}
+  m_GameObject: {fileID: 5366294505734718189}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -38,21 +38,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1372849432880358028
+--- !u!33 &3555155487360793209
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8478831456747079483}
+  m_GameObject: {fileID: 5366294505734718189}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &295062234610434652
+--- !u!23 &4468204312344115906
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8478831456747079483}
+  m_GameObject: {fileID: 5366294505734718189}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -95,25 +95,25 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8661026744277463828
+--- !u!114 &-2477807421374976311
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8478831456747079483}
+  m_GameObject: {fileID: 5366294505734718189}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
---- !u!114 &-7618923510942285651
+--- !u!114 &1595505485001712834
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8478831456747079483}
+  m_GameObject: {fileID: 5366294505734718189}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
@@ -124,14 +124,14 @@ MonoBehaviour:
   Target: {fileID: 0}
   Custom: {fileID: 0}
   Initialize:
-    Target: 3
---- !u!114 &8431276272973033143
+    Target: 2
+--- !u!114 &114300184983969071
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8478831456747079483}
+  m_GameObject: {fileID: 5366294505734718189}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f6d5a07a3cf34c9da0f7aa29435adad0, type: 3}
@@ -147,10 +147,10 @@ MonoBehaviour:
     conditions:
     - Name: Parry Counter
       Condition: {fileID: 11400000, guid: 5248a577f0d9f0f448f3f3220839035b, type: 2}
-      Target: 3
-      Operation: 4
+      Target: 2
+      Operation: 1
       ComparisonMode: 0
-      Value: 1
+      Value: 0
       CustomValue:
         rid: -2
       MinComparisonMode: 0
@@ -173,13 +173,13 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
---- !u!114 &-8597671451917162725
+--- !u!114 &5044900213885681733
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8478831456747079483}
+  m_GameObject: {fileID: 5366294505734718189}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
@@ -187,18 +187,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
   Intrinsics:
   - Intrinsic: {fileID: 11400000, guid: 5248a577f0d9f0f448f3f3220839035b, type: 2}
-    Amount: -1
-    Target: 3
---- !u!114 &-4139425588534840409
+    Amount: 1
+    Target: 2
+--- !u!114 &6521260179400540970
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8478831456747079483}
+  m_GameObject: {fileID: 5366294505734718189}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 11400000, guid: 131acf9044edecf449ffdc001857a6b5, type: 2}
+  Definition: {fileID: 11400000, guid: 2164007c29424f04f8ab45f15b51af65, type: 2}
