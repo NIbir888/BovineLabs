@@ -17,7 +17,14 @@ MonoBehaviour:
   menuEnabled: []
   cursorPosition: {fileID: -1654692200621890270, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   settings: []
-  debugSettings: []
+  debugSettings:
+  - rid: 6798504193433534565
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 6798504193433534565
+      type: {class: InputDebug/Settings, ns: BovineLabs.Bridge.Input.Debug, asm: BovineLabs.Bridge.Input.Debug}
+      data:
+        Name: InputDebug
+        TimeScaleDouble: {fileID: 0}
+        TimeScaleHalve: {fileID: 0}
