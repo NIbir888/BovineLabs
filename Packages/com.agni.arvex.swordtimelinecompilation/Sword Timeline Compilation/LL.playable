@@ -15,7 +15,7 @@ MonoBehaviour:
   routeTo: 1
   routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   intrinsic: {fileID: 11400000, guid: 10f18061c08b46e4696dec75035905bc, type: 2}
-  amount: -2
+  amount: -1
 --- !u!114 &-8806442359814238129
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5881,7 +5881,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 197745873126127016}
