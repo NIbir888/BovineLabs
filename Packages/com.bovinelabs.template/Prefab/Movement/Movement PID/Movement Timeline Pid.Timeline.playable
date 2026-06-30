@@ -377,8 +377,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46cd83fd3ac57cee8bbb6917743282b6, type: 3}
   m_Name: PhysicsDragClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsDragClip
-  linearDrag: 10
-  angularDrag: 100
+  linearDrag: 15
+  angularDrag: 150
   strengthStat: {fileID: 0}
   readStatFrom: 4
   readStatLink: {fileID: 0}
@@ -396,7 +396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceClip
   mode: 0
   directionMode: 0
-  linearForce: {x: 0, y: 0, z: 10}
+  linearForce: {x: 0, y: 0, z: 100}
   space: 4
   magnitude: 100
   directionTarget: 1
@@ -531,7 +531,7 @@ MonoBehaviour:
       x: 2
       y: 2
       z: 2
-    MaxOutput: 100
+    MaxOutput: 80
   trackingTarget: 6
   targetMode: 1
   targetRotationEuler: {x: 0, y: 0, z: 0}
