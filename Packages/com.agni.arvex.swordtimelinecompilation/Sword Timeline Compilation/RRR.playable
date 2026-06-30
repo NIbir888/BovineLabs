@@ -1144,7 +1144,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TimelineEssenceIntrinsicClip
   - m_Version: 1
-    m_Start: 1.3166666666666667
+    m_Start: 0.7166666666666666
     m_ClipIn: 0
     m_Asset: {fileID: 1372498440334474502}
     m_Duration: 0.016666666666666666
@@ -3123,7 +3123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d68fdab4b6b4405f88e2ce89425c95b7, type: 3}
   m_Name: TimelineEssenceIntrinsicClip(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceIntrinsicClip
-  routeTo: 1
+  routeTo: 2
   routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   intrinsic: {fileID: 11400000, guid: 9026db654dea33c47a268eb870cb80fe, type: 2}
   amount: -1
@@ -3916,7 +3916,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 5165935602072480668}
-    m_Duration: 2.4666666984558105
+    m_Duration: 0.7666666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3190852898478944664}
     m_EaseInDuration: 0
@@ -3980,7 +3980,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 0
-    m_DisplayName: Combo01
+    m_DisplayName: Attack_3Combo_A_3
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
@@ -5126,7 +5126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a05f1979bc48fb82d10004d6168758, type: 3}
   m_Name: RukhankaAnimationClip(Clone)(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.Animation.Authoring::BovineLabs.Timeline.Animation.Authoring.RukhankaAnimationClip
-  animationClipHolder: {fileID: 7400000, guid: 5a1b9db0409788942b57a91c50c90c60, type: 2}
+  animationClipHolder: {fileID: 1827226128182048838, guid: bd31b7a946456884b9dc459f8c38dd02, type: 3}
   positionOffset: {x: 0, y: 0, z: 0}
   eulerAnglesOffset: {x: 0, y: 0, z: 0}
   removeStartOffset: 1
@@ -5860,7 +5860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d68fdab4b6b4405f88e2ce89425c95b7, type: 3}
   m_Name: TimelineEssenceIntrinsicClip(Clone)(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceIntrinsicClip
-  routeTo: 1
+  routeTo: 2
   routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   intrinsic: {fileID: 11400000, guid: 9026db654dea33c47a268eb870cb80fe, type: 2}
   amount: 1
