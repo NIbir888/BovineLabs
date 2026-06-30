@@ -15,7 +15,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -141,3 +141,7 @@ MonoBehaviour:
   KeepLastPosition: 0
   LocalSpace: 1
   CameraRelative: 1
+  EventRouteTo: 4
+  EventRouteLink: {fileID: 0}
+  OnAxisStart: {fileID: 0}
+  OnAxisStop: {fileID: 0}
