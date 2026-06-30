@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 690bdc80788fd50ce961e89ad57464a3, type: 3}
   m_Name: InputEventsClip
   m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.InputEventsClip
-  ReadRootFrom: 1
+  ReadRootFrom: 2
   ConsumerLink: {fileID: 11400000, guid: a31b484df79a0368a9134adf3d1c5af9, type: 2}
   Action: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  EventRouteTo: 1
+  EventRouteTo: 2
   EventRouteLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   OnInputStart: {fileID: 11400000, guid: dccbcc44312e9144298416ac09b4608e, type: 2}
   OnInputEnd: {fileID: 0}

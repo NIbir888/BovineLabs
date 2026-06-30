@@ -135,7 +135,7 @@ MonoBehaviour:
     Condition: {fileID: 11400000, guid: 2684cb1bdadf4b32b86c765e719a4118, type: 2}
     Value: 1
     Repeatable: 1
-  ReadRootFrom: 1
+  ReadRootFrom: 2
   ConsumerLink: {fileID: 11400000, guid: a31b484df79a0368a9134adf3d1c5af9, type: 2}
-  EventRouteTo: 1
+  EventRouteTo: 2
   EventRouteLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
