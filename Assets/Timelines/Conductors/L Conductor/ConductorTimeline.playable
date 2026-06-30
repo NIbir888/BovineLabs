@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -2251,7 +2251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8d19127edd59f47db6143dcf9652e1f, type: 3}
   m_Name: TimelineEssenceEventClip(Clone)(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceEventClip
-  routeTo: 1
+  routeTo: 2
   routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   conditionEvent: {fileID: 11400000, guid: ba054a0e675c8054c9861386223cd0af, type: 2}
   value: 2
@@ -6038,7 +6038,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -7280,7 +7280,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -7389,7 +7389,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -8179,7 +8179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8d19127edd59f47db6143dcf9652e1f, type: 3}
   m_Name: TimelineEssenceEventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceEventClip
-  routeTo: 1
+  routeTo: 2
   routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   conditionEvent: {fileID: 11400000, guid: ba054a0e675c8054c9861386223cd0af, type: 2}
   value: 4
@@ -8310,7 +8310,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -8432,7 +8432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8d19127edd59f47db6143dcf9652e1f, type: 3}
   m_Name: TimelineEssenceEventClip(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceEventClip
-  routeTo: 1
+  routeTo: 2
   routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   conditionEvent: {fileID: 11400000, guid: ba054a0e675c8054c9861386223cd0af, type: 2}
   value: 1
@@ -18297,7 +18297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8d19127edd59f47db6143dcf9652e1f, type: 3}
   m_Name: TimelineEssenceEventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceEventClip
-  routeTo: 1
+  routeTo: 2
   routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   conditionEvent: {fileID: 11400000, guid: ba054a0e675c8054c9861386223cd0af, type: 2}
   value: 3
@@ -22497,7 +22497,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -23328,7 +23328,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
