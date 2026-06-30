@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d68fdab4b6b4405f88e2ce89425c95b7, type: 3}
   m_Name: TimelineEssenceIntrinsicClip(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceIntrinsicClip
-  routeTo: 1
+  routeTo: 2
   routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   intrinsic: {fileID: 11400000, guid: 9026db654dea33c47a268eb870cb80fe, type: 2}
   amount: -1
@@ -2537,7 +2537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d68fdab4b6b4405f88e2ce89425c95b7, type: 3}
   m_Name: TimelineEssenceIntrinsicClip(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceIntrinsicClip
-  routeTo: 1
+  routeTo: 2
   routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   intrinsic: {fileID: 11400000, guid: 9026db654dea33c47a268eb870cb80fe, type: 2}
   amount: 1
