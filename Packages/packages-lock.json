@@ -668,6 +668,27 @@
         "com.unity.render-pipelines.core": "17.6.0"
       }
     },
+    "com.vex.ee.baseplayer": {
+      "version": "https://github.com/vex-studio/com.vex.ee.baseplayer.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.bovinelabs.core": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.core",
+        "com.bovinelabs.essence": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.essence",
+        "com.bovinelabs.reaction": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.reaction",
+        "com.bovinelabs.reaction.addon": "https://github.com/IAFahim/com.bovinelabs.reaction.addon.git",
+        "com.bovinelabs.timeline.animation": "https://github.com/IAFahim/BovineLabs.Timeline.Animation.git",
+        "com.bovinelabs.timeline.entitylinks": "https://github.com/IAFahim/BovineLabs.Timeline.EntityLinks.git",
+        "com.bovinelabs.timeline.essence": "https://github.com/IAFahim/BovineLabs.Timeline.Essence.git",
+        "com.bovinelabs.timeline.physics": "https://github.com/IAFahim/BovineLabs.Timeline.Physics.git",
+        "com.bovinelabs.timeline.playerinputs": "https://github.com/IAFahim/BovineLabs.Timeline.PlayerInputs.git",
+        "com.rukhanka.animation": "https://github.com/iafahim/com.rukhanka.animation.git",
+        "com.unity.entities": "6.6.0",
+        "com.unity.physics": "6.6.0",
+        "com.unity.timeline": "6.6.0"
+      },
+      "hash": "cbf4ca2f89e9fe7784d3ca06178e4418fb6851ac"
+    },
     "com.youngwoocho02.unity-cli-connector": {
       "version": "https://github.com/IAFahim/unity-cli.git?path=unity-connector#vex/tools",
       "depth": 0,
