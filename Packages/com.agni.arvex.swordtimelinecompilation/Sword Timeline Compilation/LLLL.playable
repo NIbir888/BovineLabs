@@ -4832,7 +4832,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TimelineEssenceIntrinsicClip
   - m_Version: 1
-    m_Start: 0.7307692307692307
+    m_Start: 0.7999999999999999
     m_ClipIn: 0
     m_Asset: {fileID: 7536222551404930977}
     m_Duration: 0.016666666666666666
@@ -5778,7 +5778,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TimelineEssenceIntrinsicClip
   - m_Version: 1
-    m_Start: 0.7307692307692307
+    m_Start: 0.7999999999999999
     m_ClipIn: 0
     m_Asset: {fileID: -3220807745255460436}
     m_Duration: 0.016666666666666666
@@ -6928,8 +6928,8 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -5138571875084568142}
-    m_Duration: 0.7307692307692307
-    m_TimeScale: 1.3
+    m_Duration: 0.8166666666666667
+    m_TimeScale: 1
     m_ParentTrack: {fileID: 8729255226317056904}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -6992,7 +6992,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 0
-    m_DisplayName: RukhankaAnimationClip
+    m_DisplayName: combo05_5
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
