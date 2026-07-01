@@ -175,8 +175,8 @@ MonoBehaviour:
   m_Name: TimelineEssenceIntrinsicClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceIntrinsicClip
   routeTo: 4
-  routeLink: {fileID: 0}
-  intrinsic: {fileID: 0}
+  routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+  intrinsic: {fileID: 11400000, guid: 09a80066e2438504db5b131062862349, type: 2}
   amount: 1
 --- !u!114 &-2847684392359219320
 MonoBehaviour:
