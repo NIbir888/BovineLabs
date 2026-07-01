@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ReactionSettings
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.ReactionSettings
   conditionEvents:
+  - {fileID: 11400000, guid: cc7d38cf3fe57404393318f1c0a1df14, type: 2}
   - {fileID: 11400000, guid: cf76a8ab63ef08948b55d28bc1527bec, type: 2}
   - {fileID: 11400000, guid: 28ecb508887efc045b8b0f67a46564ea, type: 2}
   - {fileID: 11400000, guid: e50beb6fe663ec748bbf1d5c95cc9b6c, type: 2}
