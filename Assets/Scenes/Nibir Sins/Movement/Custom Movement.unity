@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 9912937}
   - component: {fileID: 9912936}
   - component: {fileID: 9912935}
+  - component: {fileID: 9912938}
   m_Layer: 0
   m_Name: Reaction
   m_TagString: Untagged
@@ -167,16 +168,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.ReactionAuthoring
   Active:
     trigger: 0
-    cooldown: 0
+    cooldown: 0.5
     cooldownAfterDuration: 0
-    duration: 0.5
+    duration: 0
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Null
-      Condition: {fileID: 0}
-      Target: 0
-      Operation: 0
+    - Name: Stagger Points
+      Condition: {fileID: 11400000, guid: 70f0e79ad562b6d4dbdc775564960a2a, type: 2}
+      Target: 2
+      Operation: 3
       ComparisonMode: 0
       Value: 0
       CustomValue:
@@ -189,7 +190,26 @@ MonoBehaviour:
       ValueMax: 0
       CustomValueMax:
         rid: -2
-      Features: 0
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
+    - Name: Is Stagger Deprecating
+      Condition: {fileID: 11400000, guid: 35e6ae709a3880f40a31d627010abd99, type: 2}
+      Target: 2
+      Operation: 1
+      ComparisonMode: 0
+      Value: 1
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
       DestroyIfTargetDestroyed: 0
       CancelActive: 0
     conditionLogic:
@@ -231,6 +251,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
+--- !u!114 &9912938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9912933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
+  Intrinsics:
+  - Intrinsic: {fileID: 11400000, guid: 70f0e79ad562b6d4dbdc775564960a2a, type: 2}
+    Amount: -5
+    Target: 2
 --- !u!4 &298992205 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8650953610196317333, guid: bf8d18df77c9d5b479fdc0bd4dc36eb9, type: 3}
@@ -1494,12 +1530,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5518288826745493376, guid: bf8d18df77c9d5b479fdc0bd4dc36eb9, type: 3}
       propertyPath: IntrinsicDefaults.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5518288826745493376, guid: bf8d18df77c9d5b479fdc0bd4dc36eb9, type: 3}
       propertyPath: IntrinsicDefaults.Array.data[7].Intrinsic
       value: 
       objectReference: {fileID: 11400000, guid: 35e6ae709a3880f40a31d627010abd99, type: 2}
+    - target: {fileID: 5518288826745493376, guid: bf8d18df77c9d5b479fdc0bd4dc36eb9, type: 3}
+      propertyPath: IntrinsicDefaults.Array.data[8].Intrinsic
+      value: 
+      objectReference: {fileID: 11400000, guid: 70f0e79ad562b6d4dbdc775564960a2a, type: 2}
     - target: {fileID: 5568937386720704640, guid: bf8d18df77c9d5b479fdc0bd4dc36eb9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.000000003259629
