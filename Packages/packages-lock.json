@@ -669,9 +669,9 @@
       }
     },
     "com.vex.ee.baseplayer": {
-      "version": "https://github.com/vex-studio/com.vex.ee.baseplayer.git",
+      "version": "file:com.vex.ee.baseplayer",
       "depth": 0,
-      "source": "git",
+      "source": "embedded",
       "dependencies": {
         "com.bovinelabs.core": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.core",
         "com.bovinelabs.essence": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.essence",
@@ -686,8 +686,7 @@
         "com.unity.entities": "6.6.0",
         "com.unity.physics": "6.6.0",
         "com.unity.timeline": "6.6.0"
-      },
-      "hash": "cbf4ca2f89e9fe7784d3ca06178e4418fb6851ac"
+      }
     },
     "com.youngwoocho02.unity-cli-connector": {
       "version": "https://github.com/IAFahim/unity-cli.git?path=unity-connector#vex/tools",
