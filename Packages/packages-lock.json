@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.agni.allin1vfxtoolkit": {
+      "version": "https://github.com/vex-studio/allin1vfxtoolkit-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "9cc9960fb028a651eceda7a80617cb39c65f748c"
+    },
     "com.agni.arvex.sword": {
       "version": "file:com.agni.arvex.sword",
       "depth": 0,
@@ -14,6 +21,13 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.agni.bonecrusher": {
+      "version": "https://github.com/vex-studio/bonecrusher-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "02545b4c381db14fd71c932132d81b467a5900e1"
+    },
     "com.agni.brutaldoubleaxe.animset": {
       "version": "https://github.com/SadmanShafin/brutal-double-axe-anim-set-unity-package.git",
       "depth": 0,
@@ -27,6 +41,34 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.agni.elitecrusher": {
+      "version": "https://github.com/vex-studio/elitecrusher-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "39fb646d06852e884eed32595bf54454800c4ef1"
+    },
+    "com.agni.epictoonfx": {
+      "version": "https://github.com/vex-studio/epic-toon-fx-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "32478a1139e24c8ae07ebf0988d3d3e746f3fdcb"
+    },
+    "com.agni.flameknightv2": {
+      "version": "https://github.com/vex-studio/flameknight-v2-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "a10fdd04d053f02281566ecf99af5d8f161cd33c"
+    },
+    "com.agni.gabrielaguiarproductions3": {
+      "version": "https://github.com/vex-studio/gabriel-aguiar-productions-3-unity-package.git#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "a194e97842648d60afa48ba6aa1344cea453cf67"
+    },
     "com.agni.greatdualblade.animset": {
       "version": "file:com.agni.greatdualblade.animset",
       "depth": 0,
@@ -39,11 +81,66 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.agni.lava": {
+      "version": "https://github.com/vex-studio/lava-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "daa52515792140cb939e2266775a0311f371fddf"
+    },
+    "com.agni.level": {
+      "version": "file:com.agni.level",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.agni.lightplanepng": {
+      "version": "https://github.com/vex-studio/lightplane-png-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d5bdbf1417f806a3cb3da0756ca96fa0c6ee06c4"
+    },
+    "com.agni.neophyte": {
+      "version": "https://github.com/vex-studio/neophyte-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7f98f77df111aea9d5697f2cc32316fab1fe9960"
+    },
     "com.agni.parries": {
       "version": "file:com.agni.parries",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
+    },
+    "com.agni.pilotoroguelikei": {
+      "version": "https://github.com/vex-studio/piloto-roguelike-i-unity-package.git#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "3d500895ac0705475e7799f7ea2234786da09618"
+    },
+    "com.agni.pilotoroguelikeii": {
+      "version": "https://github.com/vex-studio/piloto-roguelike-ii-unity-package.git#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "17cd3d84a5fd42757629b1ef70d77609b9512bc4"
+    },
+    "com.agni.pilotostudio1": {
+      "version": "https://github.com/vex-studio/piloto-studio-1-unity-package.git#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "aa7d34935c149d312fdbd0bea82e3ee0fc195a73"
+    },
+    "com.agni.pilotostudio4": {
+      "version": "https://github.com/vex-studio/piloto-studio-4-unity-package.git#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "4ed56ab8fe284476e64f5c95b5e9d277c29790d8"
     },
     "com.agni.platformanimation": {
       "version": "https://github.com/SadmanShafin/platform-animation-unity-package.git",
@@ -51,6 +148,19 @@
       "source": "git",
       "dependencies": {},
       "hash": "dd3ad2914e4a5d591ad5282b3391732d9e6ea832"
+    },
+    "com.agni.shadow1": {
+      "version": "file:com.agni.shadow1",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.agni.srrubfishvfx03": {
+      "version": "https://github.com/vex-studio/srrubfish-vfx-03-unity-package.git#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "6a99b37533c254c48a53fdaa2958d3b0bc963c8b"
     },
     "com.bovinelabs.anchor": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.anchor",
@@ -669,9 +779,9 @@
       }
     },
     "com.vex.ee.baseplayer": {
-      "version": "file:com.vex.ee.baseplayer",
+      "version": "https://github.com/vex-studio/com.vex.ee.baseplayer.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.bovinelabs.core": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.core",
         "com.bovinelabs.essence": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.essence",
@@ -686,7 +796,8 @@
         "com.unity.entities": "6.6.0",
         "com.unity.physics": "6.6.0",
         "com.unity.timeline": "6.6.0"
-      }
+      },
+      "hash": "f1cd8609badf249c2f4e71caff3bdeba7cefa239"
     },
     "com.youngwoocho02.unity-cli-connector": {
       "version": "https://github.com/IAFahim/unity-cli.git?path=unity-connector#vex/tools",
