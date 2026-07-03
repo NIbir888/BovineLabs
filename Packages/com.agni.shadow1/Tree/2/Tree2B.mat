@@ -37,7 +37,6 @@ Material:
   - _ALPHACLIPPING_ON
   - _ALPHATEST_ON
   - _EMISSION
-  - _ENABLERUKHANKA_ON
   - _FRESNELHIGHLIGHTS_ON
   - _MK_ARTISTIC_ANIMATION_STUTTER
   - _MK_DETAIL_BLEND_MIX
@@ -268,7 +267,7 @@ Material:
     - _DrawnMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _EnableRukhanka: 1
+    - _EnableRukhanka: 0
     - _EnvironmentReflections: 2
     - _FresnelHighlights: 1
     - _GlossMapScale: 1

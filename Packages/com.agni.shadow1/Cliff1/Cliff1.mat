@@ -249,6 +249,8 @@ Material:
     - _Contrast: 1
     - _Cull: 2
     - _Cutoff: 0.5
+    - _DeformationParamsForMotionVectors: 0
+    - _DeformedMeshIndex: 0
     - _DetailAlbedoMapScale: 1
     - _DetailBlend: 0
     - _DetailMix: 0.5
@@ -267,6 +269,7 @@ Material:
     - _DrawnMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _EnableRukhanka: 0
     - _EnvironmentReflections: 1
     - _FresnelHighlights: 1
     - _GlossMapScale: 1
@@ -374,3 +377,4 @@ Material:
     - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
     - _VertexAnimationFrequency: {r: 2.5, g: 2.5, b: 2.5, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
