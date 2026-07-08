@@ -778,6 +778,12 @@
         "com.unity.render-pipelines.core": "17.6.0"
       }
     },
+    "com.vex.bossroom1": {
+      "version": "file:com.vex.bossroom1",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.vex.ee.baseplayer": {
       "version": "https://github.com/vex-studio/com.vex.ee.baseplayer.git",
       "depth": 0,

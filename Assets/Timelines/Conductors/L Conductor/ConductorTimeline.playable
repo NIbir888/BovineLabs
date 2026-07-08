@@ -8518,7 +8518,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -23526,8 +23526,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceEventClip
   routeTo: 2
   routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
-  conditionEvent: {fileID: 11400000, guid: e253039c7d49e4f448d3d0d5f778abbf, type: 2}
-  value: 2
+  conditionEvent: {fileID: 11400000, guid: ba054a0e675c8054c9861386223cd0af, type: 2}
+  value: 4
 --- !u!114 &6255445527510485687
 MonoBehaviour:
   m_ObjectHideFlags: 1

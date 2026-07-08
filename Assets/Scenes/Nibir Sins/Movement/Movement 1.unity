@@ -1588,7 +1588,7 @@ MonoBehaviour:
       Features: 1
       DestroyIfTargetDestroyed: 0
       CancelActive: 0
-    - Name: Can Dash
+    - Name: CanDash
       Condition: {fileID: 11400000, guid: be774f3d464062a43923068ec5de00a1, type: 2}
       Target: 1
       Operation: 1
@@ -2335,7 +2335,7 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Movement End
+    - Name: OnInputWalkEnd
       Condition: {fileID: 11400000, guid: 0f72803bfdbe9eb418ce94da4cb5a298, type: 2}
       Target: 1
       Operation: 1
@@ -2737,7 +2737,7 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Movement Start
+    - Name: OnInputWalkStart
       Condition: {fileID: 11400000, guid: dccbcc44312e9144298416ac09b4608e, type: 2}
       Target: 1
       Operation: 1
@@ -3718,7 +3718,7 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Can Walk
+    - Name: CanWalk
       Condition: {fileID: 11400000, guid: a04b0c1964480d84aa9f6ee97c11147a, type: 2}
       Target: 1
       Operation: 4
@@ -4182,7 +4182,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 728ba8ac2e8bb4349a45bbc4e9e081a0, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 1
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -4279,7 +4279,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5625669556108574569}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000029802322, y: 0.000000007450584, z: -0.000000013125826, w: 1}
+  m_LocalRotation: {x: -0.000000029802322, y: 0.000000007450581, z: -0.000000013125826, w: 1}
   m_LocalPosition: {x: -0.001265962, y: -0.062196013, z: -0.015663283}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5351,7 +5351,7 @@ PlayableDirector:
   m_GameObject: {fileID: 7559251440157382411}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 08a7c66a7681c07498886283321d1ca7, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 1cc15ce86427f3f439314552dd5d7088, type: 2}
   m_InitialState: 0
   m_WrapMode: 1
   m_DirectorUpdateMode: 1
@@ -5367,6 +5367,8 @@ PlayableDirector:
     value: {fileID: 4326161332050218754}
   - key: {fileID: 3740037599780215160, guid: 08a7c66a7681c07498886283321d1ca7, type: 2}
     value: {fileID: 4648705768152454860}
+  - key: {fileID: 3832053335359821222, guid: 1cc15ce86427f3f439314552dd5d7088, type: 2}
+    value: {fileID: 2707397463059597200}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &6322559287614469835
@@ -6709,8 +6711,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8663069561081005904}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0.000000119209275, z: -0, w: 1}
+  m_LocalPosition: {x: 0.000000050436938, y: 0, z: -0.0000007771887}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6793,7 +6795,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6926078842883016242}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000012719715, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.00000012719715, y: -0, z: -8.4703295e-22, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7313,7 +7315,7 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Is Walking
+    - Name: IsWalking
       Condition: {fileID: 11400000, guid: abb48ab04951f384e9d1c8ba03d94b4b, type: 2}
       Target: 1
       Operation: 1
