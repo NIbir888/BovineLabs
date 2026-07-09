@@ -15,6 +15,7 @@
     "com.agni.lava": "https://github.com/vex-studio/lava-unity-package.git",
     "com.agni.level": "file:./Packages/com.agni.level",
     "com.agni.lightplanepng": "https://github.com/vex-studio/lightplane-png-unity-package.git",
+    "com.agni.lutha": "https://github.com/vex-studio/lutha-unity-package.git",
     "com.agni.neophyte": "https://github.com/vex-studio/neophyte-unity-package.git",
     "com.agni.parries": "https://github.com/SadmanShafin/parries-unity-package.git",
     "com.agni.pilotoroguelikei": "https://github.com/vex-studio/piloto-roguelike-i-unity-package.git#v1.0.0",
@@ -68,10 +69,10 @@
     "com.unity.timeline": "6.6.0",
     "com.unity.ugui": "2.6.0",
     "com.unity.visualeffectgraph": "17.6.0",
+    "com.vex.bossroom1": "https://github.com/NIbir888/Boss-Room-1-Level.git#1.0.1",
     "com.vex.ee.baseplayer": "https://github.com/vex-studio/com.vex.ee.baseplayer.git",
     "com.vex.shadow1elevelfix": "https://github.com/NIbir888/Shadow1E-level-assets-Fix.git",
     "com.youngwoocho02.unity-cli-connector": "https://github.com/IAFahim/unity-cli.git?path=unity-connector#vex/tools",
-    "com.unity.modules.terrainphysics": "1.0.0",
-    "com.vex.bossroom1": "https://github.com/NIbir888/Boss-Room-1-Level.git#1.0.1"
+    "com.unity.modules.terrainphysics": "1.0.0"
   }
 }
